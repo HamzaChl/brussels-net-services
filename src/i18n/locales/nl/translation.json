@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "home": "Startpagina",
+    "tasks": "Toegestane Taken",
+    "request": "Een Huishoudster Aanvragen",
+    "job": "Job",
+    "news": "Nieuws",
+    "contact": "Contact"
+  },
+  "topbar": {
+    "address": "Pletinckxstraat 10, 1000 Brussel"
+  },
+  "hero": {
+    "badge": "Erkend Dienstencheques · Brussel",
+    "title": "Geniet van het leven",
+    "subtitle": "voor een kleine prijs.",
+    "tagline": "Laat ons het huishouden voor u doen!",
+    "cta_primary": "Een huishoudster aanvragen",
+    "cta_secondary": "Neem contact op"
+  },
+  "help": {
+    "label": "Persoonlijke service",
+    "title": "Hulp nodig bij inschrijven of andere vragen?",
+    "text": "Onze afgevaardigde komt <strong>gratis</strong> bij u thuis om uw vragen te beantwoorden of u te helpen met de nodige stappen.",
+    "cta": "Afspraak maken"
+  },
+  "why": {
+    "label": "Onze belofte",
+    "title": "Waarom wij?",
+    "p1": "Als erkende aanbieder van schoonmaakdiensten voor dienstencheques, verbinden wij ons ertoe om optimale arbeidsomstandigheden te bieden aan ons personeel.",
+    "p2": "Wij zijn ons bewust dat banen in deze sector vaak precair zijn en vaak informeel worden uitgevoerd. Door te kiezen voor onze dienstencheques-services kunt u bijdragen aan <strong>werkzekerheid</strong> voor de werknemers in onze sector."
+  },
+  "simplify": {
+    "label": "Onze diensten",
+    "title": "Vereenvoudig uw leven.",
+    "p1": "Bij Brussels Net Services vereenvoudigen we uw leven dankzij een team van bekwame en enthousiaste professionals die u kunnen helpen uw huishoudelijke taken te verlichten.",
+    "p2": "Wij bieden een volledig pakket diensten aan, waaronder schoonmaken, wassen, boodschappen doen en maaltijden bereiden. Wij accepteren betalingen via <strong>papieren of elektronische dienstencheques</strong> en alle administratieve stappen kunnen online worden afgehandeld.",
+    "services": ["Schoonmaken", "Wassen", "Boodschappen", "Maaltijdbereiding", "Dienstencheques"]
+  },
+  "office": {
+    "label": "Bezoek ons",
+    "title": "Liever langs het kantoor komen?",
+    "text": "Geen probleem — ons kantoor is gemakkelijk bereikbaar.",
+    "access": [
+      "Metro Anneessens — lijnen 2 en 6",
+      "Tram station Lemmens — lijnen 3 en 4",
+      "Pletinckxstraat 10, 1000 Brussel"
+    ],
+    "hours_title": "Openingsuren",
+    "hours_subtitle": "Kantoor open van maandag tot vrijdag",
+    "hours": [
+      { "day": "Maandag", "time": "10u30 – 15u00" },
+      { "day": "Dinsdag", "time": "10u30 – 15u00" },
+      { "day": "Woensdag", "time": "10u30 – 15u00" },
+      { "day": "Donderdag", "time": "10u30 – 15u00" },
+      { "day": "Vrijdag", "time": "10u30 – 15u00" },
+      { "day": "Op Afspraak", "time": "15u00 – 18u00" }
+    ]
+  },
+  "social": {
+    "label": "Blijf verbonden",
+    "title": "Onze Sociale Media",
+    "text": "Volg ons om op de hoogte te blijven van ons nieuws en aanbiedingen.",
+    "follow": "Volgen"
+  },
+  "footer": {
+    "description": "Erkende aanbieder van schoonmaakdiensten voor dienstencheques in Brussel.",
+    "navigation": "Navigatie",
+    "hours": "Kantooruren",
+    "copyright": "Alle rechten voorbehouden.",
+    "certified": "Erkend dienstencheques — Brussels Hoofdstedelijk Gewest"
+  },
+  "stub": {
+    "soon": "Pagina in aanbouw",
+    "available": "Deze inhoud is binnenkort beschikbaar."
+  },
+  "notfound": {
+    "label": "Pagina niet gevonden",
+    "title": "Oeps, deze pagina bestaat niet.",
+    "desc": "De pagina die u zoekt is mogelijk verplaatst of verwijderd.",
+    "cta": "Terug naar de startpagina"
+  },
+  "taches": {
+    "badge": "Dienstencheques · Brussels Net Services",
+    "title": "Toegestane Taken",
+    "subtitle": "U kunt huishoudelijke werken betalen die thuis of in uw tweede verblijf worden uitgevoerd.",
+    "tasks": [
+      { "title": "Schoonmaken", "desc": "Volledige reiniging van uw woning of tweede verblijf volgens uw instructies." },
+      { "title": "Ramen wassen", "desc": "Binnen- en buitenreiniging van uw ramen voor een lichtrijk interieur." },
+      { "title": "De was", "desc": "Wassen, drogen en verzorgen van het wasgoed volgens uw gewoonten." },
+      { "title": "Strijken", "desc": "Zorgvuldig strijken van uw kleding en huishoudlinnen." },
+      { "title": "Naaiwerk", "desc": "Kleine reparaties en naaiwerk aan het te strijken linnen." },
+      { "title": "Maaltijden bereiden", "desc": "Eenvoudige en evenwichtige maaltijden bereiden naar uw smaak en behoeften." },
+      { "title": "Kleine boodschappen", "desc": "Nabijheidsboodschappen voor uw dagelijkse huishoudelijke behoeften." }
+    ],
+    "tips_label": "Praktische tips",
+    "tips_heading": "Goed voorbereiden op het bezoek van uw huishoudster",
+    "tips": [
+      { "num": "01", "title": "Bereid het materiaal voor", "body": "Zorg dat uw huishoudster over alle benodigde materialen en reinigingsproducten beschikt. Niemand kent uw vloeren en de juiste producten beter dan uzelf." },
+      { "num": "02", "title": "Geef de juiste instructies", "body": "Geef aan welk product op welk type vloer gebruikt moet worden, en begin altijd met oppervlakken op hoogte — zo voorkomt u dat u stof verspreidt over wat al schoon is." },
+      { "num": "03", "title": "Ruim op voor het bezoek", "body": "Wij raden u aan uw woning op te ruimen voor de interventie. De huishoudster kan ook mee opruimen, met of zonder uw hulp, maar altijd volgens uw instructies." },
+      { "num": "04", "title": "Maak een takenlijst", "body": "Geef aan welke kamer gestofzuigd moet worden, waar gedweild moet worden, en wat de prioriteiten zijn. Keuken en badkamer vragen vaak meer aandacht — uw lijst helpt de tijd te optimaliseren." }
+    ]
+  },
+  "demander": {
+    "badge": "Dienstencheques · Brussels Net Services",
+    "title": "Op zoek naar een huishoudster via dienstencheques?",
+    "subtitle": "Doe uw aanvraag online — wij vinden snel de juiste persoon voor u.",
+    "steps_label": "Hoe het werkt",
+    "steps_heading": "Eenvoudig, snel en vrijblijvend",
+    "steps": [
+      { "num": "01", "title": "Vul het formulier in", "body": "Beschrijf uw behoeften, uw beschikbaarheid en het gewenste type taken." },
+      { "num": "02", "title": "Wij nemen contact op", "body": "Ons team analyseert uw aanvraag en belt u terug binnen 48u om een afspraak te maken." },
+      { "num": "03", "title": "Wij stellen uw huishoudster voor", "body": "Wij stellen u een gekwalificeerde huishoudster voor, beschikbaar in uw buurt." }
+    ],
+    "form_label": "Aanvraagformulier",
+    "form_heading": "Beschrijf uw behoeften",
+    "form": {
+      "section_identity": "Uw gegevens",
+      "section_needs": "Uw behoeften",
+      "firstname": "Voornaam",
+      "lastname": "Naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "address": "Adres (straat + nummer)",
+      "city": "Stad / Postcode",
+      "tasks_label": "Gewenste taken",
+      "task_options": ["Algemeen schoonmaken", "Ramen wassen", "Was & strijken", "Maaltijden bereiden", "Kleine boodschappen", "Naaiwerk"],
+      "frequency_label": "Gewenste frequentie",
+      "frequency_placeholder": "— Kies —",
+      "frequency_options": ["1x per week", "2x per week", "1x per maand", "Eenmalig / nader te bepalen"],
+      "availability_label": "Voorkeursbeschikbaarheid",
+      "availability_placeholder": "— Kies —",
+      "availability_options": ["Ochtend (8u–12u)", "Namiddag (12u–17u)", "Flexibel"],
+      "message_label": "Aanvullende informatie",
+      "message_placeholder": "Oppervlakte van de woning, huisdieren, toegang, bijzondere voorkeuren...",
+      "submit": "Mijn aanvraag versturen",
+      "sending": "Verzenden...",
+      "privacy": "Uw gegevens worden uitsluitend gebruikt om uw aanvraag te verwerken. Geen commerciële benadering.",
+      "success_title": "Aanvraag verzonden!",
+      "success_text": "Ons team neemt binnen 48u contact met u op."
+    }
+  },
+  "news": {
+    "title": "Actualiteiten Dienstencheques",
+    "subtitle": "De laatste officiële informatie van de Brussels Gewestelijke Overheidsdienst.",
+    "source": "Officiële bron",
+    "source_label": "Brussels Gewestelijke Overheidsdienst",
+    "read_more": "Volledig artikel lezen",
+    "see_all": "Alle officiële actualiteiten bekijken",
+    "tags": {
+      "important": "Belangrijk",
+      "formation": "Opleiding",
+      "info": "Technische info"
+    }
+  },
+  "contact": {
+    "badge": "Wij staan voor u klaar",
+    "title": "Contacteer ons",
+    "subtitle": "Een vraag? Een project? Ons team antwoordt u zo snel mogelijk.",
+    "form": {
+      "firstname": "Voornaam",
+      "lastname": "Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoon",
+      "subject": "Onderwerp",
+      "subject_options": ["Informatieaanvraag", "Een huishoudster aanvragen", "Sollicitatie (Job)", "Andere"],
+      "message": "Uw bericht",
+      "submit": "Bericht versturen",
+      "sending": "Verzenden...",
+      "success": "Bericht verzonden! We antwoorden u binnenkort.",
+      "privacy": "Door dit formulier in te dienen, gaat u akkoord met ons privacybeleid."
+    },
+    "info": {
+      "address_label": "Adres",
+      "address": "Pletinckxstraat 10\n1000 Brussel",
+      "hours_label": "Openingsuren",
+      "email_label": "E-mail",
+      "email": "info@brusselsnetservices.be",
+      "phone_label": "Telefoon",
+      "delegate_label": "Huisbezoek",
+      "delegate": "Onze afgevaardigde bezoekt u gratis thuis om uw vragen te beantwoorden."
+    }
+  }
+}

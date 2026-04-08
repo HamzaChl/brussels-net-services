@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --primary:   #08ACF2;
+  --primary-l: #2FC1FF;
+  --primary-d: #0696D6;
+  --warm:      #F5FBFF;
+  --text:      #1A1A1A;
+  --muted:     #6B7280;
+  --border:    #E5E7EB;
+
+  --topbar-h:  38px;
+  --navbar-h:  72px;
+  --headers-h: calc(var(--topbar-h) + var(--navbar-h));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  color: var(--text);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Figtree', sans-serif;
+    color: var(--text);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Nav hover underline */
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+.nav-link:hover .nav-underline,
+.nav-link.nav-active .nav-underline {
+  transform: scaleX(1) !important;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
