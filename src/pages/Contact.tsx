@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import contactImg from '../assets/contact-form.jpg'
+import Social from '../components/Social'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -360,6 +361,9 @@ export default function Contact() {
 
           </div>
         </div>
+      </section>
+      <section>
+        <Social />
       </section>
 
       

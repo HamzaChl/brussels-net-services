@@ -57,6 +57,12 @@
       { "day": "By appointment", "time": "15:00 – 18:00" }
     ]
   },
+  "reviews": {
+    "label": "Customer reviews",
+    "title": "What our clients say",
+    "based_on": "Based on +{{count}} Google reviews",
+    "see_all": "See all reviews on Google"
+  },
   "social": {
     "label": "Stay connected",
     "title": "Our Social Media",
@@ -139,6 +145,52 @@
       "privacy": "Your data is used solely to process your request. No marketing.",
       "success_title": "Request sent!",
       "success_text": "Our team will contact you within 48h."
+    }
+  },
+  "job": {
+    "badge": "Recruitment · Brussels Net Services",
+    "title": "Join our team",
+    "subtitle": "Brussels Net Services is looking for motivated domestic helpers. Enjoy stable employment and a respectful working environment.",
+    "perks_label": "Your benefits",
+    "perks_heading": "Why join us?",
+    "perks": [
+      { "title": "Stable CDI", "desc": "Job security with an open-ended contract (CDI) from the start." },
+      { "title": "Tailor-made schedule", "desc": "A flexible schedule adapted to your private life and constraints." },
+      { "title": "Proximity", "desc": "We organize your assignments close to your home." },
+      { "title": "Supportive team", "desc": "Administrative and human support to accompany you every day." }
+    ],
+    "steps_label": "Process",
+    "steps_heading": "How to become a domestic helper?",
+    "steps": [
+      { "num": "01", "title": "Apply online", "body": "Fill out the application form with your information." },
+      { "num": "02", "title": "Interview", "body": "We meet you to discuss your profile and expectations." },
+      { "num": "03", "title": "Onboarding", "body": "If your profile matches, we sign your contract and you start." }
+    ],
+    "form_label": "Application",
+    "form_heading": "Apply now",
+    "form": {
+      "section_identity": "Your contact details",
+      "section_profile": "Your profile",
+      "section_docs": "Documents & Motivation",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "email": "Email",
+      "phone": "Phone",
+      "languages_label": "Languages spoken",
+      "language_options": ["French", "Dutch", "English", "Other"],
+      "experience_label": "Experience in the sector",
+      "experience_placeholder": "— Choose —",
+      "experience_options": ["None", "Less than a year", "1 to 3 years", "More than 3 years"],
+      "availability_label": "Desired schedule type",
+      "availability_placeholder": "— Choose —",
+      "availability_options": ["Full time", "Part time", "Flexible"],
+      "motivation_label": "Why join us?",
+      "motivation_placeholder": "Tell us in a few words about your motivations...",
+      "submit": "Send my application",
+      "sending": "Sending...",
+      "privacy": "Your data is treated confidentially only for your recruitment.",
+      "success_title": "Application sent!",
+      "success_text": "Our team will review your profile and get back to you quickly."
     }
   },
   "news": {

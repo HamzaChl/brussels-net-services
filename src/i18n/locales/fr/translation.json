@@ -57,6 +57,12 @@
       { "day": "Sur Rendez-vous", "time": "15h00 – 18h00" }
     ]
   },
+  "reviews": {
+    "label": "Avis clients",
+    "title": "Ce que disent nos clients",
+    "based_on": "Basé sur +{{count}} avis Google",
+    "see_all": "Voir tous les avis sur Google"
+  },
   "social": {
     "label": "Restez connectés",
     "title": "Nos Réseaux Sociaux",
@@ -139,6 +145,54 @@
       "privacy": "Vos données sont utilisées uniquement pour traiter votre demande. Aucun démarchage.",
       "success_title": "Demande envoyée !",
       "success_text": "Notre équipe vous recontacte dans les 48h."
+    }
+  },
+  "job": {
+    "badge": "Carrière · Brussels Net Services",
+    "title": "Rejoignez notre équipe",
+    "subtitle": "Vous cherchez un emploi stable en titres-services à Bruxelles ? Postulez en quelques minutes.",
+    "perks_label": "Pourquoi nous rejoindre",
+    "perks_heading": "Un emploi stable, humain et valorisant",
+    "perks": [
+      { "title": "Contrat stable", "desc": "CDI à temps partiel ou plein temps selon vos disponibilités." },
+      { "title": "Titres-services agréés", "desc": "Travaillez dans un cadre légal et sécurisé, reconnu par la Région bruxelloise." },
+      { "title": "Accompagnement", "desc": "Notre délégué vous accompagne dès votre arrivée pour faciliter votre intégration." },
+      { "title": "Flexibilité", "desc": "Des horaires adaptés à votre vie personnelle et à vos contraintes." }
+    ],
+    "steps_label": "Comment ça marche",
+    "steps_heading": "Un processus simple et rapide",
+    "steps": [
+      { "num": "01", "title": "Envoyez votre candidature", "body": "Remplissez le formulaire ci-dessous avec vos informations et votre lettre de motivation." },
+      { "num": "02", "title": "Entretien téléphonique", "body": "Notre équipe vous contacte sous 48h pour un premier échange rapide." },
+      { "num": "03", "title": "Bienvenue dans l'équipe", "body": "Après validation, on vous présente votre client et vous démarrez à votre rythme." }
+    ],
+    "form_label": "Candidature",
+    "form_heading": "Postulez maintenant",
+    "form": {
+      "section_identity": "Vos coordonnées",
+      "section_profile": "Votre profil",
+      "section_docs": "Motivation",
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "address": "Adresse (rue + numéro)",
+      "city": "Ville / Code postal",
+      "languages_label": "Langues parlées",
+      "language_options": ["Français", "Néerlandais", "Anglais", "Arabe", "Espagnol", "Autre"],
+      "experience_label": "Expérience en nettoyage",
+      "experience_placeholder": "— Choisir —",
+      "experience_options": ["Aucune expérience", "Moins d'1 an", "1 à 3 ans", "Plus de 3 ans"],
+      "availability_label": "Disponibilités",
+      "availability_placeholder": "— Choisir —",
+      "availability_options": ["Temps plein", "Temps partiel — matin", "Temps partiel — après-midi", "Flexible"],
+      "motivation_label": "Lettre de motivation",
+      "motivation_placeholder": "Parlez-nous de vous, de votre motivation et de ce qui vous attire dans ce métier...",
+      "submit": "Envoyer ma candidature",
+      "sending": "Envoi en cours…",
+      "privacy": "Vos données sont utilisées uniquement dans le cadre de votre candidature.",
+      "success_title": "Candidature envoyée !",
+      "success_text": "Nous vous recontacterons dans les 48h. Merci de l'intérêt que vous portez à Brussels Net Services."
     }
   },
   "news": {

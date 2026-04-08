@@ -57,6 +57,12 @@
       { "day": "Op Afspraak", "time": "15u00 – 18u00" }
     ]
   },
+  "reviews": {
+    "label": "Klantbeoordelingen",
+    "title": "Wat onze klanten zeggen",
+    "based_on": "Gebaseerd op +{{count}} Google-beoordelingen",
+    "see_all": "Alle beoordelingen op Google bekijken"
+  },
   "social": {
     "label": "Blijf verbonden",
     "title": "Onze Sociale Media",
@@ -139,6 +145,52 @@
       "privacy": "Uw gegevens worden uitsluitend gebruikt om uw aanvraag te verwerken. Geen commerciële benadering.",
       "success_title": "Aanvraag verzonden!",
       "success_text": "Ons team neemt binnen 48u contact met u op."
+    }
+  },
+  "job": {
+    "badge": "Recrutering · Brussels Net Services",
+    "title": "Sluit je aan bij ons team",
+    "subtitle": "Brussels Net Services is op zoek naar gemotiveerde huishoudhulpen. Geniet van een stabiele baan en een respectvolle werkomgeving.",
+    "perks_label": "Jouw voordelen",
+    "perks_heading": "Waarom bij ons komen werken?",
+    "perks": [
+      { "title": "Stabiel vast contract", "desc": "Bestaanszekerheid met een contract van onbepaalde duur vanaf de indiensttreding." },
+      { "title": "Planning op maat", "desc": "Een flexibel rooster aangepast aan je privéleven en verplichtingen." },
+      { "title": "Nabijheid", "desc": "Wij organiseren je opdrachten in de buurt van je woonplaats." },
+      { "title": "Ondersteunend team", "desc": "Administratieve en menselijke ondersteuning om je elke dag te begeleiden." }
+    ],
+    "steps_label": "Proces",
+    "steps_heading": "Hoe word je huishoudhulp?",
+    "steps": [
+      { "num": "01", "title": "Online solliciteren", "body": "Vul het sollicitatieformulier in met je gegevens." },
+      { "num": "02", "title": "Gesprek", "body": "We ontmoeten je om je profiel en verwachtingen te bespreken." },
+      { "num": "03", "title": "Aan de slag", "body": "Als je profiel past, tekenen we je contract en begin je." }
+    ],
+    "form_label": "Sollicitatie",
+    "form_heading": "Solliciteer nu",
+    "form": {
+      "section_identity": "Jouw contactgegevens",
+      "section_profile": "Jouw profiel",
+      "section_docs": "Documenten & Motivatie",
+      "firstname": "Voornaam",
+      "lastname": "Achternaam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "languages_label": "Gesproken talen",
+      "language_options": ["Frans", "Nederlands", "Engels", "Andere"],
+      "experience_label": "Ervaring in de sector",
+      "experience_placeholder": "— Kies —",
+      "experience_options": ["Geen", "Minder dan een jaar", "1 tot 3 jaar", "Meer dan 3 jaar"],
+      "availability_label": "Gewenst type rooster",
+      "availability_placeholder": "— Kies —",
+      "availability_options": ["Voltijds", "Deeltijds", "Flexibel"],
+      "motivation_label": "Waarom bij ons komen werken?",
+      "motivation_placeholder": "Vertel ons in een paar woorden je motivaties...",
+      "submit": "Verstuur mijn sollicitatie",
+      "sending": "Verzenden...",
+      "privacy": "Je gegevens worden vertrouwelijk behandeld, uitsluitend voor je recrutering.",
+      "success_title": "Sollicitatie verzonden!",
+      "success_text": "Ons team zal je profiel bekijken en snel contact met je opnemen."
     }
   },
   "news": {

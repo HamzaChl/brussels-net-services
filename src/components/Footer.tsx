@@ -2,8 +2,14 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import logoWhite from '../assets/logo-white.webp'
 
+const languages = [
+  { code: 'fr', label: 'FR' },
+  { code: 'nl', label: 'NL' },
+  { code: 'en', label: 'EN' },
+]
+
 export default function Footer() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
   const links = [
     { labelKey: 'nav.home', to: '/' },
@@ -92,6 +98,28 @@ export default function Footer() {
           <p className="text-white/70 text-xs">
             © {new Date().getFullYear()} Brussels Net Services. {t('footer.copyright')}
           </p>
+
+          {/* Language switcher */}
+          <div className="flex items-center gap-1">
+            {languages.map(({ code, label }, i) => (
+              <span key={code} className="flex items-center gap-1">
+                <button
+                  onClick={() => i18n.changeLanguage(code)}
+                  className="text-xs font-semibold transition-colors px-1.5 py-0.5 rounded"
+                  style={{
+                    color: i18n.language === code ? '#fff' : 'rgba(255,255,255,0.4)',
+                    background: i18n.language === code ? 'rgba(255,255,255,0.15)' : 'transparent',
+                  }}
+                >
+                  {label}
+                </button>
+                {i < languages.length - 1 && (
+                  <span className="text-white/20 text-xs">|</span>
+                )}
+              </span>
+            ))}
+          </div>
+
           <p className="text-white/60 text-xs">
             {t('footer.certified')}
           </p>

@@ -6,6 +6,7 @@ import image01 from '../assets/image01.jpg'
 import image02 from '../assets/image02.jpg'
 import image03 from '../assets/image03.jpg'
 import Social from '../components/Social'
+import Reviews from '../components/Reviews'
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 32 },
@@ -285,6 +286,7 @@ export default function Home() {
         </div>
       </section>
 
+      <Reviews />
       <Social />
     </main>
   )

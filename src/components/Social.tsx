@@ -65,10 +65,10 @@ const Social = () => {
   ]
 
   return (
-    <section className="py-32" style={{ background: '#fff' }}>
+    <section className="py-20" style={{ background: '#fff' }}>
       <div className="w-full px-[60px]">
         <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-80px' }}>
-          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-10 mb-16">
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
             <div>
               <motion.p variants={fadeUp} className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color: 'var(--primary)' }}>
                 {t('social.label')}
@@ -89,13 +89,13 @@ const Social = () => {
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex flex-col gap-6 p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1"
+                className="group flex items-center gap-4 p-5 rounded-2xl transition-all duration-300 hover:-translate-y-1"
                 style={{ background: bg, border: '1px solid transparent' }}
                 onMouseEnter={e => (e.currentTarget.style.borderColor = color + '33')}
                 onMouseLeave={e => (e.currentTarget.style.borderColor = 'transparent')}
               >
-                <div className="w-12 h-12 rounded-xl flex items-center justify-center" style={{ background: color + '18' }}>
-                  <svg width="20" height="20" viewBox="0 0 24 24"
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ background: color + '18' }}>
+                  <svg width="18" height="18" viewBox="0 0 24 24"
                     fill={fill ? color : 'none'}
                     stroke={fill ? 'none' : color}
                     strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
@@ -103,16 +103,13 @@ const Social = () => {
                     {icon}
                   </svg>
                 </div>
-                <div>
-                  <p className="font-semibold text-sm mb-1" style={{ color: 'var(--text)' }}>{label}</p>
-                  <p className="text-xs" style={{ color: 'var(--muted)' }}>{handle}</p>
+                <div className="flex-1 min-w-0">
+                  <p className="font-semibold text-sm" style={{ color: 'var(--text)' }}>{label}</p>
+                  <p className="text-xs truncate" style={{ color: 'var(--muted)' }}>{handle}</p>
                 </div>
-                <div className="flex items-center gap-1 text-xs font-medium mt-auto" style={{ color }}>
-                  {t('social.follow')}
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
-                  </svg>
-                </div>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 opacity-50 group-hover:opacity-100 transition-opacity">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
               </a>
             ))}
           </motion.div>
