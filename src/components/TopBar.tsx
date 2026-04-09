@@ -11,13 +11,13 @@ export default function TopBar() {
 
   return (
     <div style={{ backgroundColor: 'var(--primary)' }} className="w-full text-white">
-      <div className="w-full px-[60px] py-2.5 flex items-center justify-between gap-4 flex-wrap">
+      <div className="w-full px-4 lg:px-[60px] py-2.5 flex items-center justify-between gap-3 flex-wrap">
         {/* Address */}
         <a
           href="https://maps.google.com/?q=Rue+Pletinckx+10+1000+Bruxelles"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
+          className="hidden sm:flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
         >
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>

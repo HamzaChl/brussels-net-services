@@ -40,7 +40,7 @@ export default function Navbar() {
         boxShadow: scrolled ? '0 2px 24px rgba(8,172,242,0.10)' : '0 1px 0 #E5E7EB',
       }}
     >
-      <div className="w-full px-[60px]">
+      <div className="w-full px-4 lg:px-[60px]">
         <div className="flex items-center justify-between" style={{ height: '72px' }}>
           {/* Logo */}
           <Link to="/" className="flex items-center shrink-0">
@@ -116,13 +116,13 @@ export default function Navbar() {
             transition={{ duration: 0.2, ease: 'easeInOut' }}
             className="lg:hidden fixed left-0 right-0 border-t border-gray-100 shadow-xl"
             style={{
-              top: 'var(--headers-h)',
+              top: scrolled ? 'var(--navbar-h)' : 'var(--headers-h)',
               zIndex: 9999,
               background: 'rgba(255,255,255,0.97)',
               backdropFilter: 'blur(20px)',
             }}
           >
-            <ul className="px-[60px] py-4 flex flex-col gap-1">
+            <ul className="px-4 py-4 flex flex-col gap-1">
               {[...links, { label: t('nav.contact'), to: '/contact' }].map((link) => {
                 const active = location.pathname === link.to
                 const isContact = link.to === '/contact'

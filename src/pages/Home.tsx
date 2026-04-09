@@ -38,7 +38,7 @@ export default function Home() {
           className="absolute inset-0"
           style={{ background: 'linear-gradient(to right, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.20) 50%, transparent 100%)' }}
         />
-        <div className="relative z-10 w-full h-full px-[60px] flex items-center justify-center lg:justify-start">
+        <div className="relative z-10 w-full h-full px-4 lg:px-[60px] flex items-center justify-center lg:justify-start">
           <motion.div variants={stagger} initial="hidden" animate="visible" className="max-w-2xl text-center lg:text-left">
             <motion.div variants={fadeUp}>
               <span
@@ -90,8 +90,8 @@ export default function Home() {
       </section>
 
       {/* ── AIDE INSCRIPTION ── */}
-      <section className="py-32" style={{ background: '#fff' }}>
-        <div className="w-full px-[60px]">
+      <section className="py-16 lg:py-32" style={{ background: '#fff' }}>
+        <div className="w-full px-4 lg:px-[60px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-80px' }}>
               <motion.p variants={fadeUp} className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color: 'var(--primary)' }}>
@@ -130,8 +130,8 @@ export default function Home() {
       </section>
 
       {/* ── POURQUOI NOUS ── */}
-      <section className="py-32" style={{ background: 'var(--warm)' }}>
-        <div className="w-full px-[60px]">
+      <section className="py-16 lg:py-32" style={{ background: 'var(--warm)' }}>
+        <div className="w-full px-4 lg:px-[60px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, scale: 0.97 }}
@@ -162,8 +162,8 @@ export default function Home() {
       </section>
 
       {/* ── SIMPLIFIEZ VOTRE VIE ── */}
-      <section className="py-32" style={{ background: '#fff' }}>
-        <div className="w-full px-[60px]">
+      <section className="py-16 lg:py-32" style={{ background: '#fff' }}>
+        <div className="w-full px-4 lg:px-[60px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-80px' }}>
               <motion.p variants={fadeUp} className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color: 'var(--primary)' }}>
@@ -204,8 +204,8 @@ export default function Home() {
       </section>
 
       {/* ── BUREAU & HORAIRES ── */}
-      <section className="py-32" style={{ background: 'var(--warm)' }}>
-        <div className="w-full px-[60px]">
+      <section className="py-16 lg:py-32" style={{ background: 'var(--warm)' }}>
+        <div className="w-full px-4 lg:px-[60px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-80px' }}>
               <motion.p variants={fadeUp} className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color: 'var(--primary)' }}>

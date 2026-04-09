@@ -66,7 +66,7 @@ const Social = () => {
 
   return (
     <section className="py-20" style={{ background: '#fff' }}>
-      <div className="w-full px-[60px]">
+      <div className="w-full px-4 lg:px-[60px]">
         <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true, margin: '-80px' }}>
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
             <div>

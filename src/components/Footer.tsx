@@ -24,8 +24,8 @@ export default function Footer() {
 
   return (
     <footer style={{ backgroundColor: 'var(--primary)' }} className="text-white mt-auto">
-      <div className="w-full px-[60px] py-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+      <div className="w-full px-4 lg:px-[60px] py-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
           {/* Brand */}
           <div>
             <div className="mb-6">

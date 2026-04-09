@@ -59,7 +59,7 @@ export default function Contact() {
     <main>
       <section
         className="relative w-full overflow-hidden"
-        style={{ height: '340px' }}
+        style={{ height: 'clamp(220px, 40vw, 340px)' }}
       >
         <div
           className="absolute inset-0"
@@ -73,7 +73,7 @@ export default function Contact() {
           className="absolute inset-0"
           style={{ background: 'linear-gradient(to right, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0.20) 60%, transparent 100%)' }}
         />
-        <div className="relative z-10 h-full flex items-center px-[60px]">
+        <div className="relative z-10 h-full flex items-center px-4 lg:px-[60px]">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -100,7 +100,7 @@ export default function Contact() {
 
       
       <section className="py-24" style={{ background: 'var(--warm)' }}>
-        <div className="w-full px-[60px]">
+        <div className="w-full px-4 lg:px-[60px]">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-stretch">
 
             
@@ -368,7 +368,7 @@ export default function Contact() {
 
       
       <section style={{ background: 'var(--warm)' }} className="pb-24">
-        <div className="w-full px-[60px]">
+        <div className="w-full px-4 lg:px-[60px]">
           <div className="overflow-hidden rounded-2xl" style={{ height: '360px' }}>
             <iframe
               title="Plan d'accès Brussels Net Services"

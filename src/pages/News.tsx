@@ -84,7 +84,7 @@ export default function News() {
   return (
     <main>
       
-      <section className="relative w-full overflow-hidden" style={{ height: '340px' }}>
+      <section className="relative w-full overflow-hidden" style={{ height: 'clamp(220px, 40vw, 340px)' }}>
         <div
           className="absolute inset-0"
           style={{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center 60%' }}
@@ -93,7 +93,7 @@ export default function News() {
           className="absolute inset-0"
           style={{ background: 'linear-gradient(to right, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0.22) 60%, transparent 100%)' }}
         />
-        <div className="relative z-10 h-full flex items-center px-[60px]">
+        <div className="relative z-10 h-full flex items-center px-4 lg:px-[60px]">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: 'easeOut' }}>
             <span
               className="inline-block text-xs font-semibold tracking-widest uppercase px-3 py-1.5 rounded-full mb-5"
@@ -115,7 +115,7 @@ export default function News() {
       </section>
 
       {/* ── SOURCE BANNER ── */}
-      <div className="w-full px-[60px] pt-10">
+      <div className="w-full px-4 lg:px-[60px] pt-10">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -148,7 +148,7 @@ export default function News() {
 
       {/* ── ARTICLES ── */}
       <section className="py-16 pb-24" style={{ background: 'var(--warm)' }}>
-        <div className="w-full px-[60px]">
+        <div className="w-full px-4 lg:px-[60px]">
           <motion.div
             variants={stagger}
             initial="hidden"

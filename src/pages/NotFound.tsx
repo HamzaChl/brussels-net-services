@@ -6,7 +6,7 @@ export default function NotFound() {
   const { t } = useTranslation()
 
   return (
-    <main className="flex-1 flex items-center justify-center py-40 px-[60px]">
+    <main className="flex-1 flex items-center justify-center py-40 px-4 lg:px-[60px]">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}

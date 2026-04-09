@@ -78,8 +78,8 @@ export default function Reviews() {
   const { t } = useTranslation()
 
   return (
-    <section className="py-32" style={{ background: 'var(--warm)' }}>
-      <div className="w-full px-[60px]">
+    <section className="py-16 lg:py-32" style={{ background: 'var(--warm)' }}>
+      <div className="w-full px-4 lg:px-[60px]">
 
         {/* Header */}
         <motion.div
