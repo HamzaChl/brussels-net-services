@@ -11,12 +11,13 @@ import News from './pages/News'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import Faq from './pages/Faq'
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   return (
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
-        
+        <Analytics />
         <ScrollToTop />
         <TopBar />
         <Navbar />
