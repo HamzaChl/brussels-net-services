@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import contactImg from '../assets/contact-form.jpg'
 import Social from '../components/Social'
+import { sendEmail } from '../lib/sendEmail'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -35,13 +36,17 @@ export default function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value })
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setSending(true)
-    setTimeout(() => {
-      setSending(false)
+    try {
+      await sendEmail({ type: 'contact', ...form })
       setSubmitted(true)
-    }, 1200)
+    } catch {
+      alert('Une erreur est survenue. Veuillez réessayer.')
+    } finally {
+      setSending(false)
+    }
   }
 
   const inputClass = "w-full rounded-xl px-4 py-3 text-sm outline-none transition-all duration-200 border"

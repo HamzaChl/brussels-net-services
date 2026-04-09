@@ -1,10 +1,13 @@
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import heroBg from '../assets/hero.jpg'
-import img1 from '../assets/image01.jpg'
-import img2 from '../assets/image02.jpg'
-import img3 from '../assets/image03.jpg'
-import img4 from '../assets/contact-form.jpg'
+import img1 from '../assets/services/nettoyage.jpeg'
+import img2 from '../assets/services/vitres.jpeg'
+import img3 from '../assets/services/linge.jpeg'
+import img4 from '../assets/services/repassage.jpeg'
+import img5 from '../assets/services/repassage.jpeg'
+import img6 from '../assets/services/repas.jpeg'
+import img7 from '../assets/services/courses.jpeg'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -16,7 +19,7 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.08 } },
 }
 
-const taskImages = [img1, img2, img3, img4, img4, img4, img4]
+const taskImages = [img1, img2, img3, img4, img5, img6, img7]
 
 export default function TachesAutorisees() {
   const { t } = useTranslation()
@@ -26,7 +29,7 @@ export default function TachesAutorisees() {
 
   return (
     <main>
-      {/* ── HERO BANNER ── */}
+      
       <section className="relative w-full overflow-hidden" style={{ height: 'clamp(220px, 40vw, 340px)' }}>
         <div
           className="absolute inset-0"
@@ -57,48 +60,64 @@ export default function TachesAutorisees() {
         </div>
       </section>
 
-      {/* ── CARDS ── */}
-      <section className="py-24" style={{ background: 'var(--warm)' }}>
-        <div className="w-full px-4 lg:px-[60px]">
-          <motion.div
-            variants={stagger}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.05 }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
-          >
-            {tasks.map(({ title, desc }, i) => (
-              <motion.div
-                key={title}
-                variants={fadeUp}
-                className="rounded-2xl overflow-hidden flex flex-col"
-                style={{
-                  background: 'rgba(255,255,255,0.85)',
-                  border: '1px solid rgba(255,255,255,0.95)',
-                  boxShadow: '0 4px 24px rgba(8,172,242,0.07)',
-                }}
-              >
-                <div className="w-full overflow-hidden" style={{ height: '180px', flexShrink: 0 }}>
-                  <img
-                    src={taskImages[i]}
-                    alt={title}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                  />
-                </div>
-                <div className="p-6 flex flex-col gap-2 flex-1">
-                  <div className="w-6 h-0.5 rounded-full mb-1" style={{ background: 'var(--primary)' }} />
-                  <h3 className="font-medium" style={{ fontSize: '0.95rem', letterSpacing: '-0.02em', color: 'var(--text)' }}>
-                    {title}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>{desc}</p>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
+     
+    <section className="py-24" style={{ background: 'var(--warm)' }}>
+  <div className="w-full px-4 lg:px-[60px]">
+    <motion.div
+      variants={stagger}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.05 }}
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+    >
+      {tasks.map(({ title, desc }, i) => (
+        <motion.div
+          key={title}
+          variants={fadeUp}
+          className="rounded-2xl overflow-hidden flex flex-col"
+          style={{
+            background: 'rgba(255,255,255,0.85)',
+            border: '1px solid rgba(255,255,255,0.95)',
+            boxShadow: '0 4px 24px rgba(8,172,242,0.07)',
+          }}
+        >
+          <div className="w-full overflow-hidden" style={{ aspectRatio: '4/3', flexShrink: 0 }}>
+            <img
+              src={taskImages[i]}
+              alt={title}
+              className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+            />
+          </div>
 
-      {/* ── TIPS ── */}
+          <div className="p-6 flex flex-col gap-2 flex-1">
+            <div
+              className="w-6 h-0.5 rounded-full mb-1"
+              style={{ background: 'var(--primary)' }}
+            />
+            <h3
+              className="font-medium"
+              style={{
+                fontSize: '0.95rem',
+                letterSpacing: '-0.02em',
+                color: 'var(--text)',
+              }}
+            >
+              {title}
+            </h3>
+            <p
+              className="text-sm leading-relaxed"
+              style={{ color: 'var(--muted)' }}
+            >
+              {desc}
+            </p>
+          </div>
+        </motion.div>
+      ))}
+    </motion.div>
+  </div>
+</section>
+
+      
       <section className="pb-24" style={{ background: 'var(--warm)' }}>
         <div className="w-full px-4 lg:px-[60px]">
           <motion.div

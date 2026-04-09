@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import heroBg from '../assets/image01.jpg'
+import { sendEmail } from '../lib/sendEmail'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -42,10 +43,17 @@ export default function DemanderAide() {
     }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setSending(true)
-    setTimeout(() => { setSending(false); setSubmitted(true) }, 1200)
+    try {
+      await sendEmail({ type: 'demander', ...form, tasks: form.tasks.join(', ') })
+      setSubmitted(true)
+    } catch {
+      alert('Une erreur est survenue. Veuillez réessayer.')
+    } finally {
+      setSending(false)
+    }
   }
 
   return (
