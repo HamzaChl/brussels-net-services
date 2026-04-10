@@ -1,54 +1,54 @@
 {
   "nav": {
     "home": "Home",
-    "legal": "Legal notice",
-    "privacy": "Privacy policy",
-    "tasks": "Authorized Tasks",
-    "request": "Request a Housekeeper",
+    "tasks": "Our home services",
+    "request": "Request a housekeeper",
     "job": "Job",
     "news": "News",
-    "contact": "Contact"
+    "contact": "Contact",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy"
   },
   "topbar": {
     "address": "Rue Pletinckx 10, 1000 Brussels"
   },
   "hero": {
     "badge": "Certified Service Vouchers · Brussels",
-    "title": "Enjoy life",
-    "subtitle": "at a small price.",
-    "tagline": "Let us do the cleaning for you!",
+    "title": "Take time for yourself.",
+    "subtitle": "",
+    "tagline": "A trusted housekeeper at your home!",
     "cta_primary": "Request a housekeeper",
     "cta_secondary": "Contact us"
   },
   "help": {
-    "label": "Personal service",
-    "title": "Need help registering or have other questions?",
-    "text": "Our representative visits your home <strong>free of charge</strong> to answer your questions or help you with the necessary steps.",
+    "label": "Personalised service",
+    "title": "Need information or guidance?",
+    "text": "We guide you through the process and answer all your questions, <strong>simply and free of charge</strong>.",
     "cta": "Book an appointment"
   },
   "why": {
     "label": "Our commitment",
-    "title": "Why us?",
-    "p1": "As an approved provider of cleaning services for service vouchers, we are committed to offering optimal working conditions to our staff.",
-    "p2": "We are aware that jobs in this sector are often precarious and informally carried out. By choosing our service voucher services, you can help guarantee <strong>job security</strong> for workers in our sector."
+    "title": "Why trust us?",
+    "p1": "",
+    "p2": "<strong>Reliable housekeepers</strong><br/>Our home cleaners are selected for their professionalism, discretion and efficiency.<br/><br/><strong>Certified service vouchers</strong><br/>A simple, legal and advantageous system for you.<br/><br/><strong>A service tailored to your needs</strong><br/>We adapt to your schedule and expectations."
   },
   "simplify": {
     "label": "Our services",
-    "title": "Simplify your life.",
-    "p1": "At Brussels Net Services, we simplify your life with a team of skilled and enthusiastic professionals who can help lighten your household workload.",
-    "p2": "We offer a full range of services including cleaning, laundry, grocery shopping and meal preparation. We accept payments via <strong>paper or electronic service vouchers</strong> and all administrative steps can be completed online.",
-    "services": ["Cleaning", "Laundry", "Groceries", "Meal preparation", "Service vouchers"]
+    "title": "Simplify your daily life.",
+    "p1": "A housekeeper by your side for the maintenance of your home.",
+    "p2": "Cleaning, laundry, shopping, meals... we adapt to your needs. Easy payment with <strong>service vouchers</strong> (paper or electronic).",
+    "services": ["Cleaning", "Laundry", "Shopping", "Meal preparation", "Service vouchers"]
   },
   "office": {
     "label": "Visit us",
-    "title": "Prefer to stop by the office?",
-    "text": "No problem — our office is easily accessible.",
+    "title": "Prefer to visit our office?",
+    "text": "Feel free to visit us during opening hours, we are here to help and answer your questions. You can also book an appointment if you wish.",
     "access": [
       "Metro Anneessens — lines 2 and 6",
       "Tram stop Lemmens — lines 3 and 4",
       "Rue Pletinckx 10, 1000 Brussels"
     ],
-    "hours_title": "Opening Hours",
+    "hours_title": "Opening hours",
     "hours_subtitle": "Office open Monday to Friday",
     "hours": [
       { "day": "Monday", "time": "10:30 – 15:00" },
@@ -91,41 +91,41 @@
   },
   "taches": {
     "badge": "Service Vouchers · Brussels Net Services",
-    "title": "Authorized Tasks",
-    "subtitle": "You can pay for household work carried out at your home or secondary residence.",
+    "title": "Our home services",
+    "subtitle": "Household services directly at your home, with complete peace of mind.",
     "tasks": [
-      { "title": "Cleaning", "desc": "Full cleaning of your home or secondary residence according to your instructions." },
-      { "title": "Window washing", "desc": "Interior and exterior cleaning of your windows for a bright interior." },
-      { "title": "Laundry", "desc": "Washing, drying and caring for laundry in accordance with your habits." },
+      { "title": "Cleaning", "desc": "Full maintenance of your home or second residence according to your instructions." },
+      { "title": "Window cleaning", "desc": "Interior and exterior cleaning of your windows for a bright home." },
+      { "title": "Laundry", "desc": "Washing, drying and care of your laundry according to your habits." },
       { "title": "Ironing", "desc": "Careful ironing of your clothes and household linen." },
-      { "title": "Mending", "desc": "Small repairs and mending of laundry to be ironed." },
-      { "title": "Meal preparation", "desc": "Preparation of simple, balanced meals according to your tastes and needs." },
-      { "title": "Small errands", "desc": "Local errands for your daily household needs." }
+      { "title": "Mending", "desc": "Small repairs and mending of clothes and linen." },
+      { "title": "Meal preparation", "desc": "Preparation of simple and balanced meals according to your tastes and needs." },
+      { "title": "Small household errands", "desc": "Local shopping for your daily household needs." }
     ],
     "tips_label": "Practical tips",
-    "tips_heading": "How to prepare for your housekeeper's visit",
+    "tips_heading": "Prepare your home for your housekeeper",
     "tips": [
-      { "num": "01", "title": "Prepare the materials", "body": "Make sure your housekeeper has all the cleaning materials and products she needs. No one knows your floors and the right products better than you." },
-      { "num": "02", "title": "Give clear instructions", "body": "Indicate which product to use on which type of floor, and always start with high surfaces — this avoids re-dusting what has already been cleaned." },
-      { "num": "03", "title": "Tidy up beforehand", "body": "We advise you to tidy your home before the intervention. The housekeeper can also tidy with or without your help, always following your instructions." },
-      { "num": "04", "title": "Prepare a task list", "body": "Indicate which room to vacuum, where to mop, and the priorities. Kitchen and bathroom often need more attention — your list helps optimise every hour." }
+      { "num": "01", "title": "Prepare the equipment", "body": "Provide all necessary cleaning equipment and products. No one knows your surfaces better than you and the products that suit them." },
+      { "num": "02", "title": "Give clear instructions", "body": "Indicate which product to use depending on the type of surface and always start with high areas to avoid making cleaned areas dirty again." },
+      { "num": "03", "title": "Tidy up beforehand", "body": "It is recommended to prepare your home by tidying up before the service. The housekeeper can also tidy up according to your instructions." },
+      { "num": "04", "title": "Prepare a task list", "body": "Specify which rooms to clean, areas to focus on and priorities. Kitchen and bathroom often require more attention: your list helps organise the work efficiently." }
     ]
   },
   "demander": {
     "badge": "Service Vouchers · Brussels Net Services",
     "title": "Looking for a housekeeper via service vouchers?",
-    "subtitle": "Submit your request online — we'll find the right person for you, quickly.",
+    "subtitle": "Submit your request online — we quickly find the right person for you.",
     "steps_label": "How it works",
     "steps_heading": "Simple, fast and no commitment",
     "steps": [
-      { "num": "01", "title": "Fill in the form", "body": "Describe your needs, your availability and the type of tasks you'd like." },
-      { "num": "02", "title": "We get back to you", "body": "Our team reviews your request and calls you back within 48h to arrange an appointment." },
-      { "num": "03", "title": "We introduce your helper", "body": "We introduce you to a qualified housekeeper available in your neighbourhood." }
+      { "num": "01", "title": "Fill in the form", "body": "Describe your needs, your availability and the type of tasks you want." },
+      { "num": "02", "title": "We contact you", "body": "Our team reviews your request and calls you back within 48h to schedule an appointment." },
+      { "num": "03", "title": "We introduce your housekeeper", "body": "We provide you with a qualified housekeeper near your home." }
     ],
     "form_label": "Request form",
     "form_heading": "Describe your needs",
     "form": {
-      "section_identity": "Your details",
+      "section_identity": "Your contact details",
       "section_needs": "Your needs",
       "firstname": "First name",
       "lastname": "Last name",
@@ -134,71 +134,73 @@
       "address": "Address (street + number)",
       "city": "City / Postcode",
       "tasks_label": "Desired tasks",
-      "task_options": ["General cleaning", "Window washing", "Laundry & ironing", "Meal preparation", "Small errands", "Mending"],
+      "task_options": ["General cleaning", "Window cleaning", "Laundry & ironing", "Meal preparation", "Small errands", "Mending"],
       "frequency_label": "Desired frequency",
       "frequency_placeholder": "— Choose —",
-      "frequency_options": ["Once a week", "Twice a week", "Once a month", "One-off / to be defined"],
+      "frequency_options": ["Once a week", "Twice a week", "Once a month", "Occasional / to be defined"],
       "availability_label": "Preferred availability",
       "availability_placeholder": "— Choose —",
       "availability_options": ["Morning (8am–12pm)", "Afternoon (12pm–5pm)", "Flexible"],
       "message_label": "Additional information",
-      "message_placeholder": "Home surface area, pets, access, special preferences...",
+      "message_placeholder": "Home size, pets, access, specific preferences...",
       "submit": "Send my request",
       "sending": "Sending…",
-      "privacy": "Your data is used solely to process your request. No marketing.",
+      "privacy": "Your data is used only to process your request. No marketing use.",
       "success_title": "Request sent!",
       "success_text": "Our team will contact you within 48h."
     }
   },
   "job": {
-    "badge": "Recruitment · Brussels Net Services",
+    "badge": "Career · Brussels Net Services",
     "title": "Join our team",
-    "subtitle": "Brussels Net Services is looking for motivated domestic helpers. Enjoy stable employment and a respectful working environment.",
-    "perks_label": "Your benefits",
-    "perks_heading": "Why join us?",
+    "subtitle": "Looking for a stable job in service vouchers in Brussels? Apply in just a few minutes.",
+    "perks_label": "Why join us",
+    "perks_heading": "A stable, human and rewarding job",
     "perks": [
-      { "title": "Stable CDI", "desc": "Job security with an open-ended contract (CDI) from the start." },
-      { "title": "Tailor-made schedule", "desc": "A flexible schedule adapted to your private life and constraints." },
-      { "title": "Proximity", "desc": "We organize your assignments close to your home." },
-      { "title": "Supportive team", "desc": "Administrative and human support to accompany you every day." }
+      { "title": "Stable contract", "desc": "Permanent contract (full-time or part-time) depending on your availability." },
+      { "title": "Certified service vouchers", "desc": "Work in a secure and legal framework recognised by the Brussels region." },
+      { "title": "Support", "desc": "Our coordinator supports you from day one to ease your integration." },
+      { "title": "Flexibility", "desc": "Working hours adapted to your personal life and constraints." }
     ],
-    "steps_label": "Process",
-    "steps_heading": "How to become a domestic helper?",
+    "steps_label": "How it works",
+    "steps_heading": "A simple and fast process",
     "steps": [
-      { "num": "01", "title": "Apply online", "body": "Fill out the application form with your information." },
-      { "num": "02", "title": "Interview", "body": "We meet you to discuss your profile and expectations." },
-      { "num": "03", "title": "Onboarding", "body": "If your profile matches, we sign your contract and you start." }
+      { "num": "01", "title": "Submit your application", "body": "Fill in the form below with your details and motivation letter." },
+      { "num": "02", "title": "Phone interview", "body": "Our team contacts you within 48h for a first quick discussion." },
+      { "num": "03", "title": "Welcome to the team", "body": "Once validated, we introduce you to your client and you start at your own pace." }
     ],
     "form_label": "Application",
     "form_heading": "Apply now",
     "form": {
       "section_identity": "Your contact details",
       "section_profile": "Your profile",
-      "section_docs": "Documents & Motivation",
+      "section_docs": "Motivation",
       "firstname": "First name",
       "lastname": "Last name",
       "email": "Email",
       "phone": "Phone",
+      "address": "Address (street + number)",
+      "city": "City / Postcode",
       "languages_label": "Languages spoken",
-      "language_options": ["French", "Dutch", "English", "Other"],
-      "experience_label": "Experience in the sector",
+      "language_options": ["French", "Dutch", "English", "Arabic", "Spanish", "Other"],
+      "experience_label": "Cleaning experience",
       "experience_placeholder": "— Choose —",
-      "experience_options": ["None", "Less than a year", "1 to 3 years", "More than 3 years"],
-      "availability_label": "Desired schedule type",
+      "experience_options": ["No experience", "Less than 1 year", "1 to 3 years", "More than 3 years"],
+      "availability_label": "Availability",
       "availability_placeholder": "— Choose —",
-      "availability_options": ["Full time", "Part time", "Flexible"],
-      "motivation_label": "Why join us?",
-      "motivation_placeholder": "Tell us in a few words about your motivations...",
+      "availability_options": ["Full time", "Part time — morning", "Part time — afternoon", "Flexible"],
+      "motivation_label": "Motivation letter",
+      "motivation_placeholder": "Tell us about yourself, your motivation and what attracts you to this job...",
       "submit": "Send my application",
-      "sending": "Sending...",
-      "privacy": "Your data is treated confidentially only for your recruitment.",
+      "sending": "Sending…",
+      "privacy": "Your data is used only for your application process.",
       "success_title": "Application sent!",
-      "success_text": "Our team will review your profile and get back to you quickly."
+      "success_text": "We will contact you within 48h. Thank you for your interest in Brussels Net Services."
     }
   },
   "news": {
     "title": "Service Vouchers News",
-    "subtitle": "The latest official information from the Brussels Regional Public Service.",
+    "subtitle": "Latest official information from the Brussels Regional Public Service.",
     "source": "Official source",
     "source_label": "Brussels Regional Public Service",
     "read_more": "Read full article",
@@ -210,9 +212,9 @@
     }
   },
   "contact": {
-    "badge": "We're here for you",
+    "badge": "We are here for you",
     "title": "Contact us",
-    "subtitle": "A question? A project? Our team will get back to you as soon as possible.",
+    "subtitle": "A question or a need? Our team will respond as quickly as possible.",
     "form": {
       "firstname": "First name",
       "lastname": "Last name",
@@ -223,12 +225,12 @@
       "message": "Your message",
       "submit": "Send message",
       "sending": "Sending...",
-      "success": "Message sent! We'll get back to you shortly.",
-      "privacy": "By submitting this form, you agree to our privacy policy."
+      "success": "Message sent! We will get back to you shortly.",
+      "privacy": "By submitting this form, you accept our privacy policy."
     },
     "info": {
-      "access_label": "How to get here",
-      "access_intro": "No worries — our office is easily accessible.",
+      "access_label": "Access",
+      "access_intro": "No problem — our office is easily accessible.",
       "access": [
         { "icon": "metro", "text": "Metro Anneessens — lines 2 and 6" },
         { "icon": "tram", "text": "Tram stop Lemmens — lines 3 and 4" },
@@ -249,7 +251,7 @@
     "sections": [
       {
         "title": "Website publisher",
-        "body": "Brussels Net Services\nRue Pletinckx 10 — 1000 Brussels\nPhone: 0471/95.02.07\nEmail: info@bns.brussels\nLegal form: SPRL\nCompany number: CBE — registration in progress\nAuthorised Service Vouchers provider by Brussels Economy and Employment"
+        "body": "Brussels Net Services\nRue Pletinckx 10 — 1000 Brussels\nPhone: 0471/95.02.07\nEmail: info@bns.brussels\nLegal form: SPRL\nCompany number: CBE — registration in progress\nCertified Service Vouchers provider by Brussels Economy and Employment"
       },
       {
         "title": "Hosting",
@@ -261,7 +263,7 @@
       },
       {
         "title": "Personal data protection",
-        "body": "Data collected via contact forms is used solely to process your request. It is neither sold nor passed on to third parties. In accordance with the GDPR, you have the right to access, rectify and delete your data. To exercise this right, contact us at info@bns.brussels."
+        "body": "Data collected via contact forms is used only to process your request. It is neither sold nor shared with third parties. In accordance with GDPR, you have the right to access, correct and delete your data. To exercise this right, contact us at info@bns.brussels."
       },
       {
         "title": "Cookies",
@@ -269,7 +271,7 @@
       },
       {
         "title": "Limitation of liability",
-        "body": "Brussels Net Services strives to keep the information published on this website up to date and accurate. However, we cannot guarantee the accuracy, completeness or timeliness of this information. Use of the website is at the user's sole responsibility."
+        "body": "Brussels Net Services strives to keep the information on this website up to date and accurate. However, we cannot guarantee the accuracy, completeness or timeliness of this information. Use of the website is at the user's own responsibility."
       }
     ]
   }

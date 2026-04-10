@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import heroBg from '../assets/image02.jpg'
+import heroBg from '../assets/image.06.jpeg'
 import { sendEmail } from '../lib/sendEmail'
 
 const fadeUp = {

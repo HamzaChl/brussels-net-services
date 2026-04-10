@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import heroBg from '../assets/hero.jpg'
+import heroBg from '../assets/image.08.jpeg'
 
 
 const fadeUp = {

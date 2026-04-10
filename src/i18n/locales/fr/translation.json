@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Accueil",
-    "tasks": "Tâches Autorisées",
+    "tasks": "Nos services à domicile",
     "request": "Demander une Aide-Ménagère",
     "job": "Job",
     "news": "News",
@@ -14,35 +14,35 @@
   },
   "hero": {
     "badge": "Titres-Services Agréé · Bruxelles",
-    "title": "Profitez de la vie",
-    "subtitle": "à petit prix.",
-    "tagline": "Laissez-nous faire le ménage pour vous !",
+    "title": "Prenez du temps pour vous.",
+    "subtitle": "",
+    "tagline": "Une aide-ménagère de confiance chez vous !",
     "cta_primary": "Demander une aide-ménagère",
     "cta_secondary": "Nous contacter"
   },
   "help": {
     "label": "Service personnalisé",
-    "title": "Besoin d'aide pour vous inscrire ou d'autres questions ?",
-    "text": "Notre délégué se déplace à votre domicile <strong>gratuitement</strong> afin de répondre à vos questions ou vous aider dans les démarches à effectuer.",
+    "title": "Besoin d'informations ou d'accompagnement ?",
+    "text": "Nous vous guidons dans vos démarches et répondons à toutes vos questions, <strong>simplement et gratuitement</strong>.",
     "cta": "Prendre rendez-vous"
   },
   "why": {
     "label": "Notre engagement",
-    "title": "Pourquoi nous ?",
-    "p1": "En tant que prestataire de services d'entretien agréé pour les titres-services, nous nous engageons à offrir des conditions de travail optimales à notre personnel.",
-    "p2": "Nous sommes conscients que les emplois dans ce domaine sont souvent précaires et souvent effectués de manière informelle. En optant pour nos services de titres-services, vous pouvez contribuer à garantir la <strong>sécurité de l'emploi</strong> pour les travailleurs de notre secteur."
+    "title": "Pourquoi nous faire confiance ?",
+    "p1": "",
+    "p2": "<strong>Des aides-ménagères fiables</strong><br/>Nos femmes de ménage à domicile sont sélectionnées pour leur sérieux, leur discrétion et leur efficacité.<br/><br/><strong>Un service agréé titres-services</strong><br/>Un cadre légal, simple et avantageux pour vous.<br/><br/><strong>Un service adapté à vos besoins</strong><br/>Nous nous adaptons à votre rythme et à vos attentes."
   },
   "simplify": {
     "label": "Nos services",
-    "title": "Simplifiez votre vie.",
-    "p1": "Chez Brussels Net Services, nous simplifions votre vie grâce à une équipe de professionnels compétents et enthousiastes qui peuvent vous aider à alléger votre charge de travail ménager.",
-    "p2": "Nous proposons une gamme complète de services, y compris le nettoyage, la lessive, les courses alimentaires et la préparation des repas. Nous acceptons les paiements par des <strong>titres-services papiers ou électroniques</strong> et toutes les démarches administratives peuvent être effectuées en ligne.",
+    "title": "Simplifiez votre quotidien.",
+    "p1": "Une aide-ménagère à vos côtés pour l'entretien de votre domicile.",
+    "p2": "Nettoyage, lessive, courses, repas... nous nous adaptons à vos besoins. Paiement simple avec <strong>titres-services</strong> (papier ou électronique).",
     "services": ["Nettoyage", "Lessive", "Courses", "Préparation des repas", "Titres-services"]
   },
   "office": {
     "label": "Visitez-nous",
-    "title": "Vous préférez passer au bureau ?",
-    "text": "Pas de soucis — notre bureau est facilement accessible.",
+    "title": "Vous préférez venir au bureau ?",
+    "text": "Passez nous voir durant nos heures d'ouverture, nous sommes là pour vous aider et répondre à vos questions. Vous pouvez également prendre rendez-vous si vous le souhaitez.",
     "access": [
       "Métro Anneessens — lignes 2 et 6",
       "Tram station Lemmens — lignes 3 et 4",
@@ -91,8 +91,8 @@
   },
   "taches": {
     "badge": "Titres-Services · Brussels Net Services",
-    "title": "Tâches Autorisées",
-    "subtitle": "Vous pouvez payer les travaux ménagers effectués à votre domicile ou dans votre résidence secondaire.",
+    "title": "Nos services à domicile",
+    "subtitle": "Des services de ménage directement chez vous, en toute tranquillité.",
     "tasks": [
       { "title": "Nettoyage", "desc": "Entretien complet de votre domicile ou résidence secondaire selon vos instructions." },
       { "title": "Lavage des vitres", "desc": "Nettoyage intérieur et extérieur de vos fenêtres pour un intérieur lumineux." },
@@ -105,10 +105,10 @@
     "tips_label": "Conseils pratiques",
     "tips_heading": "Bien préparer le passage de votre aide-ménagère",
     "tips": [
-      { "num": "01", "title": "Préparez le matériel", "body": "Mettez à disposition de votre aide-ménagère tout le matériel et les produits d'entretien dont elle a besoin. Personne mieux que vous ne connaît vos revêtements et les produits adaptés." },
-      { "num": "02", "title": "Donnez les bonnes instructions", "body": "Indiquez quel produit utiliser sur quel type de sol, et commencez toujours par les surfaces en hauteur — cela évite de repoussièrer ce qui a déjà été nettoyé." },
-      { "num": "03", "title": "Rangez avant le passage", "body": "Nous vous conseillons de procéder au rangement de votre habitation avant l'intervention. L'aide-ménagère peut aussi ranger avec ou sans votre aide, toujours selon vos instructions." },
-      { "num": "04", "title": "Préparez une liste de tâches", "body": "Indiquez quelle pièce aspirer, où passer le torchon, et les priorités. La cuisine et la salle de bain demandent souvent plus d'attention — votre liste aide à optimiser chaque heure." }
+      { "num": "01", "title": "Préparez le matériel", "body": "Mettez à disposition de votre aide-ménagère tout le matériel et les produits d'entretien nécessaires. Personne ne connaît mieux que vous vos revêtements et les produits qui leur sont adaptés." },
+      { "num": "02", "title": "Donnez les bonnes instructions", "body": "Indiquez quel produit utiliser selon le type de sol et commencez toujours par les surfaces en hauteur afin d'éviter de salir à nouveau ce qui a déjà été nettoyé." },
+      { "num": "03", "title": "Rangez avant le passage", "body": "Il est recommandé de préparer votre habitation en la rangeant avant l'intervention. L'aide-ménagère peut également assurer le rangement, conformément à vos instructions." },
+      { "num": "04", "title": "Préparez une liste de tâches", "body": "Précisez les pièces à aspirer, les zones à nettoyer et les priorités. La cuisine et la salle de bain demandent généralement plus d'attention : votre liste aide à organiser efficacement le travail." }
     ]
   },
   "demander": {
@@ -120,7 +120,7 @@
     "steps": [
       { "num": "01", "title": "Remplissez le formulaire", "body": "Décrivez vos besoins, vos disponibilités et le type de tâches souhaité." },
       { "num": "02", "title": "On vous recontacte", "body": "Notre équipe analyse votre demande et vous rappelle sous 48h pour convenir d'un rendez-vous." },
-      { "num": "03", "title": "On vous présente votre aide", "body": "Nous vous présentons une aide-ménagère qualifiée, disponible dans votre quartier." }
+      { "num": "03", "title": "On vous présente votre aide-ménagère", "body": "Nous vous proposons une aide-ménagère qualifiée, proche de chez vous." }
     ],
     "form_label": "Formulaire de demande",
     "form_heading": "Décrivez vos besoins",
@@ -214,7 +214,7 @@
   "contact": {
     "badge": "Nous sommes là pour vous",
     "title": "Contactez-nous",
-    "subtitle": "Une question ? Un projet ? Notre équipe vous répond dans les plus brefs délais.",
+    "subtitle": "Une question ou un besoin ? Notre équipe vous répond dans les plus brefs délais.",
     "form": {
       "firstname": "Prénom",
       "lastname": "Nom",

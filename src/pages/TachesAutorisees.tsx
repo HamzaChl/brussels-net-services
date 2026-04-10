@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import heroBg from '../assets/hero.jpg'
+import heroBg from '../assets/image.09.jpeg'
 import img1 from '../assets/services/nettoyage.jpeg'
 import img2 from '../assets/services/vitres.jpeg'
 import img3 from '../assets/services/linge.jpeg'
 import img4 from '../assets/services/repassage.jpeg'
-import img5 from '../assets/services/repassage.jpeg'
+import img5 from '../assets/services/Raccommodage.png'
 import img6 from '../assets/services/repas.jpeg'
 import img7 from '../assets/services/courses.jpeg'
 

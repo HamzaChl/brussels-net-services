@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import contactImg from '../assets/contact-form.jpg'
+import contactImg from '../assets/image.07.jpeg'
 import Social from '../components/Social'
 import { sendEmail } from '../lib/sendEmail'
 
