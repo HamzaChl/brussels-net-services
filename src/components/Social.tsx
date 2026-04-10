@@ -50,7 +50,7 @@ const Social = () => {
     },
     {
       label: 'Email',
-      handle: 'info@brusselsnetservices.be',
+      handle: 'info@bns.brussels',
       color: '#08ACF2',
       bg: '#F0FAFF',
       icon: (
@@ -60,7 +60,7 @@ const Social = () => {
         </>
       ),
       fill: false,
-      link: 'mailto:info@brusselsnetservices.be',
+      link: 'mailto:info@bns.brussels',
     },
   ]
 

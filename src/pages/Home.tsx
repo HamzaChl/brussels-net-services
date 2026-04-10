@@ -23,8 +23,6 @@ export default function Home() {
 
   const hours = t('office.hours', { returnObjects: true }) as { day: string; time: string }[]
   const services = t('simplify.services', { returnObjects: true }) as string[]
-  const access = t('office.access', { returnObjects: true }) as string[]
-  const accessIcons = ['🚇', '🚋', '📍']
 
   return (
     <main>
@@ -217,15 +215,6 @@ export default function Home() {
               <motion.p variants={fadeUp} className="text-base leading-[1.85] mb-8" style={{ color: 'var(--muted)' }}>
                 {t('office.text')}
               </motion.p>
-
-              <motion.div variants={fadeUp} className="flex flex-col gap-3 mb-8">
-                {access.map((text, i) => (
-                  <div key={text} className="flex items-start gap-3">
-                    <span className="text-lg mt-0.5 shrink-0">{accessIcons[i]}</span>
-                    <span className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>{text}</span>
-                  </div>
-                ))}
-              </motion.div>
 
               <motion.div variants={fadeUp}>
                 <div className="overflow-hidden rounded-2xl" style={{ aspectRatio: '16/7' }}>

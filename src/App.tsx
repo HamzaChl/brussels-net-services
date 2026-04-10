@@ -11,6 +11,8 @@ import News from './pages/News'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import Faq from './pages/Faq'
+import MentionsLegales from './pages/MentionsLegales'
+import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite'
 import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
@@ -32,6 +34,8 @@ export default function App() {
             <Route path="/news" element={<News />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<Faq />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
+            <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

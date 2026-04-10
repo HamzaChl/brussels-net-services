@@ -20,8 +20,6 @@ export default function Footer() {
     { labelKey: 'nav.contact', to: '/contact' },
   ]
 
-  const hours = t('office.hours', { returnObjects: true }) as { day: string; time: string }[]
-
   return (
     <footer style={{ backgroundColor: 'var(--primary)' }} className="text-white mt-auto">
       <div className="w-full px-4 lg:px-[60px] py-20">
@@ -34,25 +32,39 @@ export default function Footer() {
             <p className="text-white/60 text-sm leading-relaxed max-w-xs">
               {t('footer.description')}
             </p>
-            <div className="flex gap-4 mt-8">
-              {[
-                { label: 'Facebook', href: 'https://www.facebook.com/people/Brussels-Net-Services-Titres-Services/61583585865276/', icon: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/> },
-                { label: 'WhatsApp', href: '#', icon: <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/> },
-              ].map(({ label, href, icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target={href !== '#' ? '_blank' : undefined}
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
-                  style={{ background: 'rgba(255,255,255,0.1)' }}
-                  onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.2)')}
-                  onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.1)')}
-                >
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">{icon}</svg>
-                </a>
-              ))}
+            <div className="flex flex-wrap gap-3 mt-8">
+              {/* Facebook */}
+              <a href="https://www.facebook.com/people/Brussels-Net-Services-Titres-Services/61583585865276/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+                className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
+                style={{ background: 'rgba(255,255,255,0.1)' }}
+                onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.2)')}
+                onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.1)')}>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              {/* Instagram */}
+              <a href="https://www.instagram.com/brussels.net.services.ts/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+                className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
+                style={{ background: 'rgba(255,255,255,0.1)' }}
+                onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.2)')}
+                onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.1)')}>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              {/* WhatsApp */}
+              <a href="https://web.whatsapp.com/send?phone=32471950207" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
+                className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
+                style={{ background: 'rgba(255,255,255,0.1)' }}
+                onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.2)')}
+                onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.1)')}>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </a>
+              {/* Email */}
+              <a href="mailto:info@bns.brussels" aria-label="Email"
+                className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
+                style={{ background: 'rgba(255,255,255,0.1)' }}
+                onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.2)')}
+                onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.1)')}>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
             </div>
           </div>
 
@@ -72,52 +84,53 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Hours */}
+          {/* Légal */}
           <div>
             <h4 className="text-xs font-semibold tracking-widest uppercase text-white/40 mb-6">
-              {t('footer.hours')}
+              {t('footer.legal')}
             </h4>
-            <ul className="flex flex-col gap-2.5">
-              {hours.map(({ day, time }) => (
-                <li key={day} className="flex justify-between text-sm">
-                  <span className="text-white/60">{day}</span>
-                  <span className="text-white/90 font-medium">{time}</span>
-                </li>
-              ))}
+            <ul className="flex flex-col gap-3">
+              <li>
+                <Link to="/mentions-legales" className="text-sm text-white/70 hover:text-white transition-colors">
+                  {t('nav.legal')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/politique-confidentialite" className="text-sm text-white/70 hover:text-white transition-colors">
+                  {t('nav.privacy')}
+                </Link>
+              </li>
             </ul>
-            <div className="mt-8 pt-8 border-t border-white/10">
-              <p className="text-sm text-white/60 leading-relaxed">
-                {t('topbar.address')}
-              </p>
-            </div>
           </div>
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 flex-wrap">
           <p className="text-white/70 text-xs">
             © {new Date().getFullYear()} Brussels Net Services. {t('footer.copyright')}
           </p>
 
-          {/* Language switcher */}
-          <div className="flex items-center gap-1">
-            {languages.map(({ code, label }, i) => (
-              <span key={code} className="flex items-center gap-1">
-                <button
-                  onClick={() => i18n.changeLanguage(code)}
-                  className="text-xs font-semibold transition-colors px-1.5 py-0.5 rounded"
-                  style={{
-                    color: i18n.language === code ? '#fff' : 'rgba(255,255,255,0.4)',
-                    background: i18n.language === code ? 'rgba(255,255,255,0.15)' : 'transparent',
-                  }}
-                >
-                  {label}
-                </button>
-                {i < languages.length - 1 && (
-                  <span className="text-white/20 text-xs">|</span>
-                )}
-              </span>
-            ))}
+          <div className="flex items-center gap-4">
+            {/* Language switcher */}
+            <div className="flex items-center gap-1">
+              {languages.map(({ code, label }, i) => (
+                <span key={code} className="flex items-center gap-1">
+                  <button
+                    onClick={() => i18n.changeLanguage(code)}
+                    className="text-xs font-semibold transition-colors px-1.5 py-0.5 rounded"
+                    style={{
+                      color: i18n.language === code ? '#fff' : 'rgba(255,255,255,0.4)',
+                      background: i18n.language === code ? 'rgba(255,255,255,0.15)' : 'transparent',
+                    }}
+                  >
+                    {label}
+                  </button>
+                  {i < languages.length - 1 && (
+                    <span className="text-white/20 text-xs">|</span>
+                  )}
+                </span>
+              ))}
+            </div>
           </div>
 
           <p className="text-white/60 text-xs">

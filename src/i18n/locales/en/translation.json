@@ -1,6 +1,8 @@
 {
   "nav": {
     "home": "Home",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
     "tasks": "Authorized Tasks",
     "request": "Request a Housekeeper",
     "job": "Job",
@@ -72,6 +74,7 @@
   "footer": {
     "description": "Certified provider of cleaning services via service vouchers in Brussels.",
     "navigation": "Navigation",
+    "legal": "Legal",
     "hours": "Office hours",
     "copyright": "All rights reserved.",
     "certified": "Certified service vouchers — Brussels-Capital Region"
@@ -224,14 +227,50 @@
       "privacy": "By submitting this form, you agree to our privacy policy."
     },
     "info": {
-      "address_label": "Address",
-      "address": "Rue Pletinckx 10\n1000 Brussels",
-      "hours_label": "Opening hours",
+      "access_label": "How to get here",
+      "access_intro": "No worries — our office is easily accessible.",
+      "access": [
+        { "icon": "metro", "text": "Metro Anneessens — lines 2 and 6" },
+        { "icon": "tram", "text": "Tram stop Lemmens — lines 3 and 4" },
+        { "icon": "pin", "text": "Rue Pletinckx 10, 1000 Brussels" }
+      ],
       "email_label": "Email",
-      "email": "info@brusselsnetservices.be",
+      "email": "info@bns.brussels",
       "phone_label": "Phone",
+      "phone": "0471/95.02.07",
       "delegate_label": "Home visit",
       "delegate": "Our representative visits your home free of charge to answer your questions."
     }
+  },
+  "legal": {
+    "badge": "Legal information",
+    "title": "Legal notice",
+    "subtitle": "Legal and regulatory information about the Brussels Net Services website.",
+    "sections": [
+      {
+        "title": "Website publisher",
+        "body": "Brussels Net Services\nRue Pletinckx 10 — 1000 Brussels\nPhone: 0471/95.02.07\nEmail: info@bns.brussels\nLegal form: SPRL\nCompany number: CBE — registration in progress\nAuthorised Service Vouchers provider by Brussels Economy and Employment"
+      },
+      {
+        "title": "Hosting",
+        "body": "This website is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, United States. Website: vercel.com"
+      },
+      {
+        "title": "Intellectual property",
+        "body": "All content on this website (texts, images, logos, graphics) is the exclusive property of Brussels Net Services or its partners and is protected by Belgian and international copyright law. Any reproduction, even partial, is prohibited without prior written authorisation."
+      },
+      {
+        "title": "Personal data protection",
+        "body": "Data collected via contact forms is used solely to process your request. It is neither sold nor passed on to third parties. In accordance with the GDPR, you have the right to access, rectify and delete your data. To exercise this right, contact us at info@bns.brussels."
+      },
+      {
+        "title": "Cookies",
+        "body": "This website uses anonymous analytical cookies (Vercel Analytics) to improve your browsing experience. No advertising or third-party tracking cookies are used."
+      },
+      {
+        "title": "Limitation of liability",
+        "body": "Brussels Net Services strives to keep the information published on this website up to date and accurate. However, we cannot guarantee the accuracy, completeness or timeliness of this information. Use of the website is at the user's sole responsibility."
+      }
+    ]
   }
 }

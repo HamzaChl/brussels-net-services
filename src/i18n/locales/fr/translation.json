@@ -5,7 +5,9 @@
     "request": "Demander une Aide-Ménagère",
     "job": "Job",
     "news": "News",
-    "contact": "Contact"
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité"
   },
   "topbar": {
     "address": "Rue Pletinckx 10, 1000 Bruxelles"
@@ -72,6 +74,7 @@
   "footer": {
     "description": "Prestataire de services d'entretien agréé pour les titres-services à Bruxelles.",
     "navigation": "Navigation",
+    "legal": "Légal",
     "hours": "Horaires du bureau",
     "copyright": "Tous droits réservés.",
     "certified": "Agréé titres-services — Région de Bruxelles-Capitale"
@@ -226,14 +229,50 @@
       "privacy": "En soumettant ce formulaire, vous acceptez notre politique de confidentialité."
     },
     "info": {
-      "address_label": "Adresse",
-      "address": "Rue Pletinckx 10\n1000 Bruxelles",
-      "hours_label": "Horaires",
+      "access_label": "Accès",
+      "access_intro": "Pas de soucis — notre bureau est facilement accessible.",
+      "access": [
+        { "icon": "metro", "text": "Métro Anneessens — lignes 2 et 6" },
+        { "icon": "tram", "text": "Tram station Lemmens — lignes 3 et 4" },
+        { "icon": "pin", "text": "Rue Pletinckx 10, 1000 Bruxelles" }
+      ],
       "email_label": "Email",
-      "email": "info@brusselsnetservices.be",
+      "email": "info@bns.brussels",
       "phone_label": "Téléphone",
+      "phone": "0471/95.02.07",
       "delegate_label": "Visite à domicile",
       "delegate": "Notre délégué se déplace gratuitement à votre domicile pour répondre à vos questions."
     }
+  },
+  "legal": {
+    "badge": "Informations légales",
+    "title": "Mentions légales",
+    "subtitle": "Informations légales et réglementaires concernant le site Brussels Net Services.",
+    "sections": [
+      {
+        "title": "Éditeur du site",
+        "body": "Brussels Net Services\nRue Pletinckx 10 — 1000 Bruxelles\nTél. : 0471/95.02.07\nE-mail : info@bns.brussels\nForme juridique : SPRL\nNuméro d'entreprise : BCE — en cours d'enregistrement\nAgréé Titres-Services par Bruxelles Économie et Emploi"
+      },
+      {
+        "title": "Hébergement",
+        "body": "Ce site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis. Site : vercel.com"
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "body": "L'ensemble du contenu de ce site (textes, images, logos, graphismes) est la propriété exclusive de Brussels Net Services ou de ses partenaires et est protégé par le droit d'auteur belge et international. Toute reproduction, même partielle, est interdite sans autorisation préalable écrite."
+      },
+      {
+        "title": "Protection des données personnelles",
+        "body": "Les données collectées via les formulaires de contact sont utilisées uniquement dans le cadre du traitement de votre demande. Elles ne sont ni vendues ni transmises à des tiers. Conformément au RGPD (Règlement Général sur la Protection des Données), vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ce droit, contactez-nous à info@bns.brussels."
+      },
+      {
+        "title": "Cookies",
+        "body": "Ce site utilise des cookies analytiques anonymes (Vercel Analytics) afin d'améliorer votre expérience de navigation. Aucun cookie publicitaire ou de traçage tiers n'est utilisé."
+      },
+      {
+        "title": "Limitation de responsabilité",
+        "body": "Brussels Net Services s'efforce de maintenir les informations publiées sur ce site à jour et exactes. Cependant, nous ne pouvons garantir l'exactitude, l'exhaustivité ou l'actualité de ces informations. L'utilisation du site se fait sous la responsabilité exclusive de l'utilisateur."
+      }
+    ]
   }
 }

@@ -15,14 +15,6 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.10 } },
 }
 
-const hours = [
-  { day: 'Lundi', time: '10h30 – 15h00' },
-  { day: 'Mardi', time: '10h30 – 15h00' },
-  { day: 'Mercredi', time: '10h30 – 15h00' },
-  { day: 'Jeudi', time: '10h30 – 15h00' },
-  { day: 'Vendredi', time: '10h30 – 15h00' },
-  { day: 'Sur RDV', time: '15h00 – 18h00' },
-]
 
 export default function Contact() {
   const { t } = useTranslation()
@@ -286,31 +278,7 @@ export default function Contact() {
               className="flex flex-col gap-6"
             >
               
-              <div
-                className="rounded-2xl p-7"
-                style={{
-                  background: 'rgba(255,255,255,0.80)',
-                  backdropFilter: 'blur(20px)',
-                  border: '1px solid rgba(255,255,255,0.90)',
-                  boxShadow: '0 4px 32px rgba(8,172,242,0.07)',
-                }}
-              >
-                <div className="flex items-center gap-3 mb-5">
-                  <div className="w-9 h-9 rounded-lg flex items-center justify-center shrink-0" style={{ background: 'rgba(8,172,242,0.10)' }}>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
-                    </svg>
-                  </div>
-                  <p className="text-xs font-semibold tracking-widest uppercase" style={{ color: 'var(--primary)' }}>
-                    {t('contact.info.address_label')}
-                  </p>
-                </div>
-                <p className="text-sm leading-relaxed" style={{ color: 'var(--text)' }}>
-                  Rue Pletinckx 10<br />1000 Bruxelles
-                </p>
-              </div>
-
-              
+              {/* Contact */}
               <div
                 className="rounded-2xl p-7"
                 style={{
@@ -323,24 +291,24 @@ export default function Contact() {
                 <div className="flex flex-col gap-5">
                   <div>
                     <p className="text-xs font-semibold tracking-widest uppercase mb-1.5" style={{ color: 'var(--primary)' }}>
-                      {t('contact.info.email_label')}
+                      {t('contact.info.phone_label')}
                     </p>
-                    <a href="mailto:info@brusselsnetservices.be" className="text-sm hover:underline" style={{ color: 'var(--text)' }}>
-                      info@brusselsnetservices.be
+                    <a href="tel:+32471950207" className="text-sm hover:underline" style={{ color: 'var(--text)' }}>
+                      0471/95.02.07
                     </a>
                   </div>
                   <div>
                     <p className="text-xs font-semibold tracking-widest uppercase mb-1.5" style={{ color: 'var(--primary)' }}>
-                      {t('contact.info.delegate_label')}
+                      {t('contact.info.email_label')}
                     </p>
-                    <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
-                      {t('contact.info.delegate')}
-                    </p>
+                    <a href="mailto:info@bns.brussels" className="text-sm hover:underline" style={{ color: 'var(--text)' }}>
+                      info@bns.brussels
+                    </a>
                   </div>
                 </div>
               </div>
 
-              {/* Hours */}
+              {/* Horaires */}
               <div
                 className="rounded-2xl p-7"
                 style={{
@@ -354,10 +322,10 @@ export default function Contact() {
                   {t('contact.info.hours_label')}
                 </p>
                 <ul className="flex flex-col gap-2">
-                  {hours.map(({ day, time }, i) => (
+                  {(t('office.hours', { returnObjects: true }) as { day: string; time: string }[]).map(({ day, time }, i, arr) => (
                     <li key={day} className="flex justify-between text-sm">
-                      <span style={{ color: i === hours.length - 1 ? 'var(--primary)' : 'var(--muted)' }}>{day}</span>
-                      <span className="font-medium tabular-nums" style={{ color: i === hours.length - 1 ? 'var(--primary)' : 'var(--text)' }}>{time}</span>
+                      <span style={{ color: i === arr.length - 1 ? 'var(--primary)' : 'var(--muted)' }}>{day}</span>
+                      <span className="font-medium tabular-nums" style={{ color: i === arr.length - 1 ? 'var(--primary)' : 'var(--text)' }}>{time}</span>
                     </li>
                   ))}
                 </ul>

@@ -5,7 +5,9 @@
     "request": "Een Huishoudster Aanvragen",
     "job": "Job",
     "news": "Nieuws",
-    "contact": "Contact"
+    "contact": "Contact",
+    "legal": "Juridische vermeldingen",
+    "privacy": "Privacybeleid"
   },
   "topbar": {
     "address": "Pletinckxstraat 10, 1000 Brussel"
@@ -72,6 +74,7 @@
   "footer": {
     "description": "Erkende aanbieder van schoonmaakdiensten voor dienstencheques in Brussel.",
     "navigation": "Navigatie",
+    "legal": "Juridisch",
     "hours": "Kantooruren",
     "copyright": "Alle rechten voorbehouden.",
     "certified": "Erkend dienstencheques — Brussels Hoofdstedelijk Gewest"
@@ -224,14 +227,50 @@
       "privacy": "Door dit formulier in te dienen, gaat u akkoord met ons privacybeleid."
     },
     "info": {
-      "address_label": "Adres",
-      "address": "Pletinckxstraat 10\n1000 Brussel",
-      "hours_label": "Openingsuren",
+      "access_label": "Bereikbaarheid",
+      "access_intro": "Geen probleem — ons kantoor is gemakkelijk bereikbaar.",
+      "access": [
+        { "icon": "metro", "text": "Metro Anneessens — lijnen 2 en 6" },
+        { "icon": "tram", "text": "Tramhalte Lemmens — lijnen 3 en 4" },
+        { "icon": "pin", "text": "Pletinckxstraat 10, 1000 Brussel" }
+      ],
       "email_label": "E-mail",
-      "email": "info@brusselsnetservices.be",
+      "email": "info@bns.brussels",
       "phone_label": "Telefoon",
+      "phone": "0471/95.02.07",
       "delegate_label": "Huisbezoek",
       "delegate": "Onze afgevaardigde bezoekt u gratis thuis om uw vragen te beantwoorden."
     }
+  },
+  "legal": {
+    "badge": "Juridische informatie",
+    "title": "Juridische vermeldingen",
+    "subtitle": "Wettelijke en reglementaire informatie over de Brussels Net Services website.",
+    "sections": [
+      {
+        "title": "Uitgever van de website",
+        "body": "Brussels Net Services\nPletinckxstraat 10 — 1000 Brussel\nTel.: 0471/95.02.07\nE-mail: info@bns.brussels\nRechtsvorm: BVBA\nOndernemingsnummer: KBO — registratie in behandeling\nErkend Dienstencheques door Brussel Economie en Werkgelegenheid"
+      },
+      {
+        "title": "Hosting",
+        "body": "Deze website wordt gehost door Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, Verenigde Staten. Website: vercel.com"
+      },
+      {
+        "title": "Intellectuele eigendom",
+        "body": "Alle inhoud van deze website (teksten, afbeeldingen, logo's, grafisch materiaal) is het exclusieve eigendom van Brussels Net Services of haar partners en wordt beschermd door het Belgische en internationale auteursrecht. Elke reproductie, zelfs gedeeltelijk, is verboden zonder voorafgaande schriftelijke toestemming."
+      },
+      {
+        "title": "Bescherming van persoonsgegevens",
+        "body": "De via de contactformulieren verzamelde gegevens worden uitsluitend gebruikt voor de behandeling van uw aanvraag. Ze worden niet verkocht of doorgegeven aan derden. Overeenkomstig de AVG (Algemene Verordening Gegevensbescherming) heeft u recht op inzage, rectificatie en verwijdering van uw gegevens. Neem hiervoor contact op via info@bns.brussels."
+      },
+      {
+        "title": "Cookies",
+        "body": "Deze website maakt gebruik van anonieme analytische cookies (Vercel Analytics) om uw surfervaring te verbeteren. Er worden geen reclame- of trackingcookies van derden gebruikt."
+      },
+      {
+        "title": "Beperking van aansprakelijkheid",
+        "body": "Brussels Net Services streeft ernaar de op deze website gepubliceerde informatie actueel en nauwkeurig te houden. We kunnen echter de juistheid, volledigheid of actualiteit van deze informatie niet garanderen. Het gebruik van de website gebeurt op exclusieve verantwoordelijkheid van de gebruiker."
+      }
+    ]
   }
 }

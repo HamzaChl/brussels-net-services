@@ -11,8 +11,8 @@ const transporter = nodemailer.createTransport({
   },
 })
 
-const FROM = `Brussels Net Services <${process.env.FROM_EMAIL ?? 'no-reply@brusselsnetservices.be'}>`
-const TO_COMPANY = process.env.TO_EMAIL ?? 'info@brusselsnetservices.be'
+const FROM = `Brussels Net Services <${process.env.FROM_EMAIL ?? 'no-reply@bns.brussels'}>`
+const TO_COMPANY = process.env.TO_EMAIL ?? 'info@bns.brussels'
 
 
 
@@ -57,7 +57,7 @@ function buildContactEmails(data: Record<string, string>) {
           <p>Nous avons bien reçu votre message concernant <strong>${subject}</strong> et nous vous répondrons dans les meilleurs délais.</p>
           <p style="color:#666;font-size:0.85rem">Heures de bureau : Lundi–Vendredi · 10h30–15h00</p>
           <hr style="border:none;border-top:1px solid #e0f0fb;margin:20px 0"/>
-          <p style="margin:0;font-size:0.8rem;color:#999">Brussels Net Services · Rue Pletinckx 10, 1000 Bruxelles · <a href="mailto:info@brusselsnetservices.be" style="color:#08ACF2">info@brusselsnetservices.be</a></p>
+          <p style="margin:0;font-size:0.8rem;color:#999">Brussels Net Services · Rue Pletinckx 10, 1000 Bruxelles · <a href="tel:+32471950207" style="color:#08ACF2">0471/95.02.07</a> · <a href="mailto:info@bns.brussels" style="color:#08ACF2">info@bns.brussels</a></p>
         </div>
       </div>`,
   }
@@ -108,9 +108,9 @@ function buildDemanderEmails(data: Record<string, string>) {
             <p style="margin:0;font-size:0.9rem"><strong>Tâches demandées :</strong> ${tasks}</p>
             <p style="margin:0;margin-top:6px;font-size:0.9rem"><strong>Fréquence souhaitée :</strong> ${frequency}</p>
           </div>
-          <p style="color:#666;font-size:0.85rem">En cas d'urgence, contactez-nous directement : <a href="mailto:info@brusselsnetservices.be" style="color:#08ACF2">info@brusselsnetservices.be</a></p>
+          <p style="color:#666;font-size:0.85rem">Contactez-nous : <a href="tel:+32471950207" style="color:#08ACF2">0471/95.02.07</a> · <a href="mailto:info@bns.brussels" style="color:#08ACF2">info@bns.brussels</a></p>
           <hr style="border:none;border-top:1px solid #e0f0fb;margin:20px 0"/>
-          <p style="margin:0;font-size:0.8rem;color:#999">Brussels Net Services · Rue Pletinckx 10, 1000 Bruxelles</p>
+          <p style="margin:0;font-size:0.8rem;color:#999">Brussels Net Services · Rue Pletinckx 10, 1000 Bruxelles · <a href="tel:+32471950207" style="color:#08ACF2">0471/95.02.07</a> · <a href="mailto:info@bns.brussels" style="color:#08ACF2">info@bns.brussels</a></p>
         </div>
       </div>`,
   }
@@ -160,9 +160,9 @@ function buildJobEmails(data: Record<string, string>) {
           <p>Bonjour <strong>${firstname}</strong>,</p>
           <p>Merci pour votre intérêt à rejoindre l'équipe Brussels Net Services. Nous avons bien reçu votre candidature et nous l'examinerons avec attention.</p>
           <p>Si votre profil correspond à nos besoins, nous vous contacterons rapidement pour un entretien.</p>
-          <p style="color:#666;font-size:0.85rem">En attendant, n'hésitez pas à nous contacter à <a href="mailto:info@brusselsnetservices.be" style="color:#08ACF2">info@brusselsnetservices.be</a></p>
+          <p style="color:#666;font-size:0.85rem">En attendant, n'hésitez pas à nous contacter : <a href="tel:+32471950207" style="color:#08ACF2">0471/95.02.07</a> · <a href="mailto:info@bns.brussels" style="color:#08ACF2">info@bns.brussels</a></p>
           <hr style="border:none;border-top:1px solid #e0f0fb;margin:20px 0"/>
-          <p style="margin:0;font-size:0.8rem;color:#999">Brussels Net Services · Rue Pletinckx 10, 1000 Bruxelles</p>
+          <p style="margin:0;font-size:0.8rem;color:#999">Brussels Net Services · Rue Pletinckx 10, 1000 Bruxelles · <a href="tel:+32471950207" style="color:#08ACF2">0471/95.02.07</a> · <a href="mailto:info@bns.brussels" style="color:#08ACF2">info@bns.brussels</a></p>
         </div>
       </div>`,
   }
