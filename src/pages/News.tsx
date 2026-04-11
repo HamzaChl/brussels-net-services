@@ -25,6 +25,20 @@ type Article = {
 
 const articles: Article[] = [
   {
+    date: '1 janvier 2026',
+    category: 'Flandre',
+    tag: 'important',
+    title: 'Brussels Net Services agréé en Flandre — Dienstencheques Vlaanderen',
+    body: "Brussels Net Services est agréé à la fois en Région de Bruxelles-Capitale et en Flandre. Grâce à notre agrément Dienstencheques Vlaanderen, nous pouvons accueillir des clients et proposer nos services d'aide-ménagère également en Flandre. Le système de dienstencheques flamand fonctionne de façon similaire au système bruxellois : vous achetez des titres-services et les utilisez pour payer votre aide-ménagère.",
+    points: [
+      'Agrément valide en Région de Bruxelles-Capitale et en Flandre',
+      'Paiement via titres-services papier ou électroniques',
+      'Mêmes tarifs avantageux et déductions fiscales applicables',
+      'Service identique : nettoyage, lessive, repassage, courses, repas…',
+    ],
+    link: 'https://www.dienstencheques.be',
+  },
+  {
     date: '15 décembre 2025',
     category: 'Tarifs',
     tag: 'important',
@@ -114,8 +128,8 @@ export default function News() {
         </div>
       </section>
 
-      {/* ── SOURCE BANNER ── */}
-      <div className="w-full px-4 lg:px-[60px] pt-10">
+      {/* ── SOURCE BANNERS ── */}
+      <div className="w-full px-4 lg:px-[60px] pt-10 flex flex-col gap-3">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -142,6 +156,34 @@ export default function News() {
               www.titre-service.brussels
             </a>
             {' '}— {t('news.source_label')}
+          </span>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, ease: 'easeOut', delay: 0.3 }}
+          className="flex items-center gap-3 px-5 py-3.5 rounded-xl text-sm"
+          style={{
+            background: 'rgba(8,172,242,0.07)',
+            border: '1px solid rgba(8,172,242,0.18)',
+            color: 'var(--text)',
+          }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+            <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+          <span style={{ color: 'var(--muted)' }}>
+            {t('news.source')} :{' '}
+            <a
+              href="https://www.dienstencheques.be"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium hover:underline"
+              style={{ color: 'var(--primary)' }}
+            >
+              www.dienstencheques.be
+            </a>
+            {' '}— {t('news.source_label_flanders')}
           </span>
         </motion.div>
       </div>

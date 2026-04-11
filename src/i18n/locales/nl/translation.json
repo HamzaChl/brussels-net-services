@@ -13,7 +13,7 @@
     "address": "Pletinckxstraat 10, 1000 Brussel"
   },
   "hero": {
-    "badge": "Erkende Dienstencheques · Brussel",
+    "badge": "Erkende Dienstencheques · Brussel & Vlaanderen",
     "title": "Neem tijd voor uzelf.",
     "subtitle": "",
     "tagline": "Een betrouwbare huishoudhulp bij u thuis!",
@@ -72,12 +72,12 @@
     "follow": "Volgen"
   },
   "footer": {
-    "description": "Erkende aanbieder van huishoudelijke diensten via dienstencheques in Brussel.",
+    "description": "Erkende aanbieder van huishoudelijke diensten via dienstencheques in Brussel en Vlaanderen.",
     "navigation": "Navigatie",
     "legal": "Juridisch",
     "hours": "Kantooruren",
     "copyright": "Alle rechten voorbehouden.",
-    "certified": "Erkende dienstencheques — Brussels Hoofdstedelijk Gewest"
+    "certified": "Erkende dienstencheques — Brussel & Vlaanderen"
   },
   "stub": {
     "soon": "Pagina in opbouw",
@@ -203,6 +203,7 @@
     "subtitle": "Laatste officiële informatie van de Brusselse overheid.",
     "source": "Officiële bron",
     "source_label": "Brusselse Gewestelijke Overheidsdienst",
+    "source_label_flanders": "Dienstencheques Vlaanderen",
     "read_more": "Lees volledig artikel",
     "see_all": "Bekijk alle nieuwsberichten",
     "tags": {

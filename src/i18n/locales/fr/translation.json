@@ -13,7 +13,7 @@
     "address": "Rue Pletinckx 10, 1000 Bruxelles"
   },
   "hero": {
-    "badge": "Titres-Services Agréé · Bruxelles",
+    "badge": "Titres-Services Agréé · Bruxelles & Flandre",
     "title": "Prenez du temps pour vous.",
     "subtitle": "",
     "tagline": "Une aide-ménagère de confiance chez vous !",
@@ -72,12 +72,12 @@
     "follow": "Suivre"
   },
   "footer": {
-    "description": "Prestataire de services d'entretien agréé pour les titres-services à Bruxelles.",
+    "description": "Prestataire de services d'entretien agréé pour les titres-services à Bruxelles et en Flandre.",
     "navigation": "Navigation",
     "legal": "Légal",
     "hours": "Horaires du bureau",
     "copyright": "Tous droits réservés.",
-    "certified": "Agréé titres-services — Région de Bruxelles-Capitale"
+    "certified": "Agréé titres-services — Bruxelles & Flandre"
   },
   "stub": {
     "soon": "Page en construction",
@@ -203,6 +203,7 @@
     "subtitle": "Les dernières informations officielles du Service public régional de Bruxelles.",
     "source": "Source officielle",
     "source_label": "Service public régional de Bruxelles",
+    "source_label_flanders": "Dienstencheques Vlaanderen",
     "read_more": "Lire l'article complet",
     "see_all": "Voir toutes les actualités officielles",
     "tags": {

@@ -13,7 +13,7 @@
     "address": "Rue Pletinckx 10, 1000 Brussels"
   },
   "hero": {
-    "badge": "Certified Service Vouchers · Brussels",
+    "badge": "Certified Service Vouchers · Brussels & Flanders",
     "title": "Take time for yourself.",
     "subtitle": "",
     "tagline": "A trusted housekeeper at your home!",
@@ -72,12 +72,12 @@
     "follow": "Follow"
   },
   "footer": {
-    "description": "Certified provider of cleaning services via service vouchers in Brussels.",
+    "description": "Certified provider of cleaning services via service vouchers in Brussels and Flanders.",
     "navigation": "Navigation",
     "legal": "Legal",
     "hours": "Office hours",
     "copyright": "All rights reserved.",
-    "certified": "Certified service vouchers — Brussels-Capital Region"
+    "certified": "Certified service vouchers — Brussels & Flanders"
   },
   "stub": {
     "soon": "Page under construction",
@@ -203,6 +203,7 @@
     "subtitle": "Latest official information from the Brussels Regional Public Service.",
     "source": "Official source",
     "source_label": "Brussels Regional Public Service",
+    "source_label_flanders": "Dienstencheques Vlaanderen",
     "read_more": "Read full article",
     "see_all": "View all official news",
     "tags": {
