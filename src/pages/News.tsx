@@ -36,7 +36,7 @@ const articles: Article[] = [
       'Mêmes tarifs avantageux et déductions fiscales applicables',
       'Service identique : nettoyage, lessive, repassage, courses, repas…',
     ],
-    link: 'https://www.dienstencheques.be',
+    link: 'https://titres-services.flandre.be/citoyen/information/inscription/comment',
   },
   {
     date: '15 décembre 2025',
@@ -175,13 +175,13 @@ export default function News() {
           <span style={{ color: 'var(--muted)' }}>
             {t('news.source')} :{' '}
             <a
-              href="https://www.dienstencheques.be"
+              href="https://titres-services.flandre.be"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium hover:underline"
               style={{ color: 'var(--primary)' }}
             >
-              www.dienstencheques.be
+              titres-services.flandre.be
             </a>
             {' '}— {t('news.source_label_flanders')}
           </span>
