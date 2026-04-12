@@ -1,15 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import nodemailer from 'nodemailer'
+import { Resend } from 'resend'
 
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: Number(process.env.SMTP_PORT) || 587,
-  secure: process.env.SMTP_SECURE === 'true',
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
-  },
-})
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 const FROM = `Brussels Net Services <${process.env.FROM_EMAIL ?? 'no-reply@bns.brussels'}>`
 const TO_COMPANY = process.env.TO_EMAIL ?? 'info@bns.brussels'
@@ -192,8 +184,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   try {
     await Promise.all([
-      transporter.sendMail(emails.toCompany),
-      transporter.sendMail(emails.toClient),
+      resend.emails.send(emails.toCompany as Parameters<typeof resend.emails.send>[0]),
+      resend.emails.send(emails.toClient as Parameters<typeof resend.emails.send>[0]),
     ])
     return res.status(200).json({ ok: true })
   } catch (err) {
