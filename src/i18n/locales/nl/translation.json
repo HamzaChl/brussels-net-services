@@ -237,6 +237,7 @@
         { "icon": "tram", "text": "Tramhalte Lemmens — lijnen 3 en 4" },
         { "icon": "pin", "text": "Pletinckxstraat 10, 1000 Brussel" }
       ],
+      "hours_label": "Openingsuren",
       "email_label": "E-mail",
       "email": "info@bns.brussels",
       "phone_label": "Telefoon",
@@ -248,31 +249,31 @@
   "legal": {
     "badge": "Juridische informatie",
     "title": "Juridische vermeldingen",
-    "subtitle": "Wettelijke informatie over Brussels Net Services.",
+    "subtitle": "Wettelijke en reglementaire informatie over de website van Brussels Net Services.",
     "sections": [
       {
-        "title": "Uitgever",
-        "body": "Brussels Net Services\nPletinckxstraat 10 — 1000 Brussel\nTel: 0471/95.02.07\nE-mail: info@bns.brussels\nRechtsvorm: BVBA\nOndernemingsnummer: KBO BE0719.760.883\nErkend door Brussel Economie en Werkgelegenheid"
+        "title": "Uitgever van de website",
+        "body": "Brussels Net Services\nPletinckxstraat 10 — 1000 Brussel\nTel: 0471/95.02.07\nE-mail: info@bns.brussels\nRechtsvorm: BVBA\nOndernemingsnummer: KBO BE0719.760.883\nErkend aanbieder van dienstencheques door Brussel Economie en Werkgelegenheid"
       },
       {
         "title": "Hosting",
-        "body": "Gehost door Vercel Inc., Verenigde Staten."
+        "body": "Deze website wordt gehost door Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, Verenigde Staten. Website: vercel.com"
       },
       {
         "title": "Intellectuele eigendom",
-        "body": "Alle inhoud is beschermd door auteursrechten."
+        "body": "Alle inhoud van deze website (teksten, afbeeldingen, logo's, grafische elementen) is het exclusieve eigendom van Brussels Net Services of haar partners en is beschermd door het Belgische en internationale auteursrecht. Elke reproductie, zelfs gedeeltelijk, is verboden zonder voorafgaande schriftelijke toestemming."
       },
       {
-        "title": "Gegevensbescherming",
-        "body": "Uw gegevens worden enkel gebruikt voor uw aanvraag."
+        "title": "Bescherming van persoonsgegevens",
+        "body": "Gegevens die via de contactformulieren worden verzameld, worden uitsluitend gebruikt voor de verwerking van uw aanvraag. Ze worden niet verkocht of doorgegeven aan derden. Overeenkomstig de AVG (Algemene Verordening Gegevensbescherming) heeft u het recht op inzage, rectificatie en verwijdering van uw gegevens. Om dit recht uit te oefenen, kunt u contact met ons opnemen via info@bns.brussels."
       },
       {
         "title": "Cookies",
-        "body": "Wij gebruiken enkel analytische cookies."
+        "body": "Deze website maakt gebruik van anonieme analytische cookies (Vercel Analytics) om uw surfervaring te verbeteren. Er worden geen reclame- of tracking-cookies van derden gebruikt."
       },
       {
-        "title": "Aansprakelijkheid",
-        "body": "Gebruik van de website gebeurt op eigen risico."
+        "title": "Beperking van aansprakelijkheid",
+        "body": "Brussels Net Services streeft ernaar de informatie op deze website actueel en correct te houden. Wij kunnen echter de juistheid, volledigheid of actualiteit van deze informatie niet garanderen. Het gebruik van de website gebeurt op eigen verantwoordelijkheid van de gebruiker."
       }
     ]
   }

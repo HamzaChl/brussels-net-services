@@ -237,6 +237,7 @@
         { "icon": "tram", "text": "Tram stop Lemmens — lines 3 and 4" },
         { "icon": "pin", "text": "Rue Pletinckx 10, 1000 Brussels" }
       ],
+      "hours_label": "Opening hours",
       "email_label": "Email",
       "email": "info@bns.brussels",
       "phone_label": "Phone",
