@@ -95,7 +95,7 @@ function buildDemanderEmails(data: Record<string, string>) {
         </div>
         <div style="background:#f5fbff;padding:28px 32px;border-radius:0 0 12px 12px;border:1px solid #e0f0fb">
           <p>Bonjour <strong>${firstname}</strong>,</p>
-          <p>Merci pour votre demande d'aide-ménagère. Notre équipe va analyser votre profil et vous contactera très prochainement pour convenir d'un rendez-vous.</p>
+          <p>Merci pour votre demande d'aide-ménagère. Notre équipe vous contactera très prochainement pour convenir d'un rendez-vous.</p>
           <div style="background:#e8f7fe;border-left:4px solid #08ACF2;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0">
             <p style="margin:0;font-size:0.9rem"><strong>Tâches demandées :</strong> ${tasks}</p>
             <p style="margin:0;margin-top:6px;font-size:0.9rem"><strong>Fréquence souhaitée :</strong> ${frequency}</p>
